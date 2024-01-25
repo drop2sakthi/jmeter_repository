@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="3766" it="0" lt="3121" ct="2756" ts="1706126945851" s="true" lb="DownloadPage" rc="200" rm="OK" tn="Case1 1-2" dt="text" by="17029" sby="265" ng="5" na="5">
+  <httpSample t="3128" it="0" lt="3121" ct="2756" ts="1706126945851" s="true" lb="DownloadPage-0" rc="301" rm="Moved Permanently" tn="Case1 1-2" dt="text" by="412" sby="132" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/download</java.net.URL>
+  </httpSample>
+  <httpSample t="636" it="0" lt="635" ct="0" ts="1706126948981" s="true" lb="DownloadPage-1" rc="200" rm="OK" tn="Case1 1-2" dt="text" by="16617" sby="133" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/download/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://jdbc.postgresql.org/download/</java.net.URL>
+</httpSample>
+<httpSample t="3371" it="0" lt="2725" ct="2341" ts="1706126946247" s="true" lb="DownloadPage" rc="200" rm="OK" tn="Case1 1-4" dt="text" by="17029" sby="265" ng="5" na="5">
+  <httpSample t="2732" it="0" lt="2725" ct="2341" ts="1706126946247" s="true" lb="DownloadPage-0" rc="301" rm="Moved Permanently" tn="Case1 1-4" dt="text" by="412" sby="132" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/download</java.net.URL>
+  </httpSample>
+  <httpSample t="637" it="0" lt="636" ct="0" ts="1706126948981" s="true" lb="DownloadPage-1" rc="200" rm="OK" tn="Case1 1-4" dt="text" by="16617" sby="133" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/download/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://jdbc.postgresql.org/download/</java.net.URL>
+</httpSample>
+<httpSample t="3862" it="0" lt="2924" ct="2597" ts="1706126946048" s="true" lb="DownloadPage" rc="200" rm="OK" tn="Case1 1-3" dt="text" by="17029" sby="265" ng="5" na="5">
+  <httpSample t="2931" it="0" lt="2924" ct="2597" ts="1706126946048" s="true" lb="DownloadPage-0" rc="301" rm="Moved Permanently" tn="Case1 1-3" dt="text" by="412" sby="132" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/download</java.net.URL>
+  </httpSample>
+  <httpSample t="929" it="0" lt="929" ct="0" ts="1706126948981" s="true" lb="DownloadPage-1" rc="200" rm="OK" tn="Case1 1-3" dt="text" by="16617" sby="133" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/download/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://jdbc.postgresql.org/download/</java.net.URL>
+</httpSample>
+<httpSample t="3466" it="0" lt="2525" ct="2200" ts="1706126946447" s="true" lb="DownloadPage" rc="200" rm="OK" tn="Case1 1-5" dt="text" by="17029" sby="265" ng="5" na="5">
+  <httpSample t="2532" it="0" lt="2525" ct="2200" ts="1706126946447" s="true" lb="DownloadPage-0" rc="301" rm="Moved Permanently" tn="Case1 1-5" dt="text" by="412" sby="132" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/download</java.net.URL>
+  </httpSample>
+  <httpSample t="932" it="0" lt="932" ct="0" ts="1706126948981" s="true" lb="DownloadPage-1" rc="200" rm="OK" tn="Case1 1-5" dt="text" by="16617" sby="133" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/download/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://jdbc.postgresql.org/download/</java.net.URL>
+</httpSample>
+<httpSample t="4127" it="0" lt="3162" ct="2842" ts="1706126945809" s="true" lb="DownloadPage" rc="200" rm="OK" tn="Case1 1-1" dt="text" by="17029" sby="265" ng="5" na="5">
+  <httpSample t="3169" it="0" lt="3162" ct="2842" ts="1706126945809" s="true" lb="DownloadPage-0" rc="301" rm="Moved Permanently" tn="Case1 1-1" dt="text" by="412" sby="132" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/download</java.net.URL>
+  </httpSample>
+  <httpSample t="955" it="0" lt="954" ct="0" ts="1706126948981" s="true" lb="DownloadPage-1" rc="200" rm="OK" tn="Case1 1-1" dt="text" by="16617" sby="133" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/download/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://jdbc.postgresql.org/download/</java.net.URL>
+</httpSample>
+<httpSample t="831" it="0" lt="258" ct="0" ts="1706126953664" s="true" lb="DocumentationPage" rc="200" rm="OK" tn="Case1 1-4" dt="text" by="14768" sby="275" ng="5" na="5">
+  <httpSample t="258" it="0" lt="258" ct="0" ts="1706126953664" s="true" lb="DocumentationPage-0" rc="301" rm="Moved Permanently" tn="Case1 1-4" dt="text" by="417" sby="137" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/documentation</java.net.URL>
+  </httpSample>
+  <httpSample t="573" it="0" lt="572" ct="0" ts="1706126953922" s="true" lb="DocumentationPage-1" rc="200" rm="OK" tn="Case1 1-4" dt="text" by="14351" sby="138" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/documentation/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://jdbc.postgresql.org/documentation/</java.net.URL>
+</httpSample>
+<httpSample t="838" it="0" lt="276" ct="0" ts="1706126953664" s="true" lb="DocumentationPage" rc="200" rm="OK" tn="Case1 1-2" dt="text" by="14768" sby="275" ng="5" na="5">
+  <httpSample t="277" it="0" lt="276" ct="0" ts="1706126953664" s="true" lb="DocumentationPage-0" rc="301" rm="Moved Permanently" tn="Case1 1-2" dt="text" by="417" sby="137" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/documentation</java.net.URL>
+  </httpSample>
+  <httpSample t="561" it="0" lt="560" ct="0" ts="1706126953941" s="true" lb="DocumentationPage-1" rc="200" rm="OK" tn="Case1 1-2" dt="text" by="14351" sby="138" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/documentation/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://jdbc.postgresql.org/documentation/</java.net.URL>
+</httpSample>
+<httpSample t="968" it="0" lt="316" ct="0" ts="1706126953928" s="true" lb="DocumentationPage" rc="200" rm="OK" tn="Case1 1-5" dt="text" by="14768" sby="275" ng="5" na="5">
+  <httpSample t="316" it="0" lt="316" ct="0" ts="1706126953928" s="true" lb="DocumentationPage-0" rc="301" rm="Moved Permanently" tn="Case1 1-5" dt="text" by="417" sby="137" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/documentation</java.net.URL>
+  </httpSample>
+  <httpSample t="652" it="0" lt="652" ct="0" ts="1706126954244" s="true" lb="DocumentationPage-1" rc="200" rm="OK" tn="Case1 1-5" dt="text" by="14351" sby="138" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/documentation/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://jdbc.postgresql.org/documentation/</java.net.URL>
+</httpSample>
+<httpSample t="983" it="0" lt="319" ct="0" ts="1706126953913" s="true" lb="DocumentationPage" rc="200" rm="OK" tn="Case1 1-3" dt="text" by="14768" sby="275" ng="5" na="5">
+  <httpSample t="319" it="0" lt="319" ct="0" ts="1706126953913" s="true" lb="DocumentationPage-0" rc="301" rm="Moved Permanently" tn="Case1 1-3" dt="text" by="417" sby="137" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/documentation</java.net.URL>
+  </httpSample>
+  <httpSample t="663" it="0" lt="663" ct="0" ts="1706126954233" s="true" lb="DocumentationPage-1" rc="200" rm="OK" tn="Case1 1-3" dt="text" by="14351" sby="138" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/documentation/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://jdbc.postgresql.org/documentation/</java.net.URL>
+</httpSample>
+<httpSample t="958" it="0" lt="323" ct="0" ts="1706126953943" s="true" lb="DocumentationPage" rc="200" rm="OK" tn="Case1 1-1" dt="text" by="14768" sby="275" ng="5" na="5">
+  <httpSample t="323" it="0" lt="323" ct="0" ts="1706126953943" s="true" lb="DocumentationPage-0" rc="301" rm="Moved Permanently" tn="Case1 1-1" dt="text" by="417" sby="137" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/documentation</java.net.URL>
+  </httpSample>
+  <httpSample t="634" it="0" lt="634" ct="0" ts="1706126954267" s="true" lb="DocumentationPage-1" rc="200" rm="OK" tn="Case1 1-1" dt="text" by="14351" sby="138" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/documentation/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://jdbc.postgresql.org/documentation/</java.net.URL>
+</httpSample>
+<httpSample t="786" it="0" lt="273" ct="0" ts="1706126958513" s="true" lb="CommunityPage" rc="200" rm="OK" tn="Case1 1-4" dt="text" by="17078" sby="267" ng="5" na="5">
+  <httpSample t="273" it="0" lt="273" ct="0" ts="1706126958513" s="true" lb="CommunityPage-0" rc="301" rm="Moved Permanently" tn="Case1 1-4" dt="text" by="413" sby="133" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/community</java.net.URL>
+  </httpSample>
+  <httpSample t="513" it="0" lt="513" ct="0" ts="1706126958786" s="true" lb="CommunityPage-1" rc="200" rm="OK" tn="Case1 1-4" dt="text" by="16665" sby="134" ng="5" na="5">
+    <java.net.URL>https://jdbc.postgresql.org/community/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://jdbc.postgresql.org/community/</java.net.URL>
+</httpSample>
+<httpSample t="812" it="0" lt="273" ct="0" ts="1706126958513" s="true" lb="CommunityPage" rc="200" rm="OK" tn="Case1 1-2" dt="text" by="17078" sby="267" ng="4" na="4">
+  <httpSample t="273" it="0" lt="273" ct="0" ts="1706126958513" s="true" lb="CommunityPage-0" rc="301" rm="Moved Permanently" tn="Case1 1-2" dt="text" by="413" sby="133" ng="4" na="4">
+    <java.net.URL>https://jdbc.postgresql.org/community</java.net.URL>
+  </httpSample>
+  <httpSample t="539" it="0" lt="538" ct="0" ts="1706126958786" s="true" lb="CommunityPage-1" rc="200" rm="OK" tn="Case1 1-2" dt="text" by="16665" sby="134" ng="4" na="4">
+    <java.net.URL>https://jdbc.postgresql.org/community/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://jdbc.postgresql.org/community/</java.net.URL>
+</httpSample>
+<httpSample t="1017" it="0" lt="397" ct="0" ts="1706126958901" s="true" lb="CommunityPage" rc="200" rm="OK" tn="Case1 1-3" dt="text" by="17078" sby="267" ng="3" na="3">
+  <httpSample t="398" it="0" lt="397" ct="0" ts="1706126958901" s="true" lb="CommunityPage-0" rc="301" rm="Moved Permanently" tn="Case1 1-3" dt="text" by="413" sby="133" ng="3" na="3">
+    <java.net.URL>https://jdbc.postgresql.org/community</java.net.URL>
+  </httpSample>
+  <httpSample t="619" it="0" lt="619" ct="0" ts="1706126959299" s="true" lb="CommunityPage-1" rc="200" rm="OK" tn="Case1 1-3" dt="text" by="16665" sby="134" ng="3" na="3">
+    <java.net.URL>https://jdbc.postgresql.org/community/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://jdbc.postgresql.org/community/</java.net.URL>
+</httpSample>
+<httpSample t="1022" it="0" lt="397" ct="0" ts="1706126958901" s="true" lb="CommunityPage" rc="200" rm="OK" tn="Case1 1-5" dt="text" by="17078" sby="267" ng="2" na="2">
+  <httpSample t="397" it="0" lt="397" ct="0" ts="1706126958901" s="true" lb="CommunityPage-0" rc="301" rm="Moved Permanently" tn="Case1 1-5" dt="text" by="413" sby="133" ng="2" na="2">
+    <java.net.URL>https://jdbc.postgresql.org/community</java.net.URL>
+  </httpSample>
+  <httpSample t="624" it="0" lt="624" ct="0" ts="1706126959299" s="true" lb="CommunityPage-1" rc="200" rm="OK" tn="Case1 1-5" dt="text" by="16665" sby="134" ng="2" na="2">
+    <java.net.URL>https://jdbc.postgresql.org/community/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://jdbc.postgresql.org/community/</java.net.URL>
+</httpSample>
+<httpSample t="1019" it="0" lt="381" ct="0" ts="1706126958917" s="true" lb="CommunityPage" rc="200" rm="OK" tn="Case1 1-1" dt="text" by="17078" sby="267" ng="1" na="1">
+  <httpSample t="381" it="0" lt="381" ct="0" ts="1706126958917" s="true" lb="CommunityPage-0" rc="301" rm="Moved Permanently" tn="Case1 1-1" dt="text" by="413" sby="133" ng="1" na="1">
+    <java.net.URL>https://jdbc.postgresql.org/community</java.net.URL>
+  </httpSample>
+  <httpSample t="637" it="0" lt="637" ct="0" ts="1706126959299" s="true" lb="CommunityPage-1" rc="200" rm="OK" tn="Case1 1-1" dt="text" by="16665" sby="134" ng="1" na="1">
+    <java.net.URL>https://jdbc.postgresql.org/community/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://jdbc.postgresql.org/community/</java.net.URL>
+</httpSample>
+
+</testResults>

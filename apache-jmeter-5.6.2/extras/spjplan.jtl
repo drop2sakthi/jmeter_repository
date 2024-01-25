@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="2041" it="0" lt="2014" ct="1672" ts="1706127495827" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="21739" sby="121" ng="1" na="1">
+  <java.net.URL>https://www.google.co.in/</java.net.URL>
+</httpSample>
+<httpSample t="618" it="0" lt="569" ct="282" ts="1706127499615" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="21832" sby="121" ng="1" na="1">
+  <java.net.URL>https://www.google.co.in/</java.net.URL>
+</httpSample>
+<httpSample t="506" it="0" lt="467" ct="220" ts="1706127503612" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="21717" sby="121" ng="1" na="1">
+  <java.net.URL>https://www.google.co.in/</java.net.URL>
+</httpSample>
+<httpSample t="600" it="0" lt="559" ct="231" ts="1706127507610" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="21751" sby="121" ng="1" na="1">
+  <java.net.URL>https://www.google.co.in/</java.net.URL>
+</httpSample>
+<httpSample t="594" it="0" lt="549" ct="256" ts="1706127511615" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="21736" sby="121" ng="1" na="1">
+  <java.net.URL>https://www.google.co.in/</java.net.URL>
+</httpSample>
+
+<httpSample t="2085" it="0" lt="2048" ct="1763" ts="1706127576896" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="21815" sby="121" ng="1" na="1">
+  <java.net.URL>https://www.google.co.in/</java.net.URL>
+</httpSample>
+<httpSample t="820" it="0" lt="774" ct="260" ts="1706127580733" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="21800" sby="121" ng="1" na="1">
+  <java.net.URL>https://www.google.co.in/</java.net.URL>
+</httpSample>
+<httpSample t="597" it="0" lt="554" ct="237" ts="1706127584723" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="21708" sby="121" ng="1" na="1">
+  <java.net.URL>https://www.google.co.in/</java.net.URL>
+</httpSample>
+<httpSample t="481" it="0" lt="442" ct="216" ts="1706127588723" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="21800" sby="121" ng="1" na="1">
+  <java.net.URL>https://www.google.co.in/</java.net.URL>
+</httpSample>
+<httpSample t="582" it="0" lt="540" ct="223" ts="1706127592723" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="21802" sby="121" ng="1" na="1">
+  <java.net.URL>https://www.google.co.in/</java.net.URL>
+</httpSample>
+
+</testResults>

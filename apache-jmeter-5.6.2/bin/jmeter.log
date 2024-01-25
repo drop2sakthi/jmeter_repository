@@ -1,0 +1,816 @@
+2024-01-25 09:56:09,623 INFO o.a.j.u.JMeterUtils: Setting Locale to en_IN
+2024-01-25 09:56:09,641 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-01-25 09:56:09,644 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-01-25 09:56:09,645 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.output_format=xml
+2024-01-25 09:56:09,645 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.assertion_results=all
+2024-01-25 09:56:09,645 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.bytes=true
+2024-01-25 09:56:09,645 INFO o.a.j.JMeter: Setting JMeter property: file_format.testlog=2.1
+2024-01-25 09:56:09,645 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.response_data.on_error=false
+2024-01-25 09:56:09,653 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
+2024-01-25 09:56:09,653 INFO o.a.j.JMeter: Version 5.6.2
+2024-01-25 09:56:09,653 INFO o.a.j.JMeter: java.version=1.8.0_291
+2024-01-25 09:56:09,654 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-01-25 09:56:09,654 INFO o.a.j.JMeter: os.name=Windows 10
+2024-01-25 09:56:09,654 INFO o.a.j.JMeter: os.arch=amd64
+2024-01-25 09:56:09,654 INFO o.a.j.JMeter: os.version=10.0
+2024-01-25 09:56:09,654 INFO o.a.j.JMeter: file.encoding=Cp1252
+2024-01-25 09:56:09,654 INFO o.a.j.JMeter: java.awt.headless=true
+2024-01-25 09:56:09,654 INFO o.a.j.JMeter: Max memory     =3745513472
+2024-01-25 09:56:09,654 INFO o.a.j.JMeter: Available Processors =8
+2024-01-25 09:56:09,659 INFO o.a.j.JMeter: Default Locale=English (India)
+2024-01-25 09:56:09,659 INFO o.a.j.JMeter: JMeter  Locale=English (India)
+2024-01-25 09:56:09,659 INFO o.a.j.JMeter: JMeterHome=C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2
+2024-01-25 09:56:09,659 INFO o.a.j.JMeter: user.dir  =C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin
+2024-01-25 09:56:09,661 INFO o.a.j.JMeter: PWD       =C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin
+2024-01-25 09:56:09,670 INFO o.a.j.JMeter: IP: 192.168.68.61 Name: ZSCHN01LP0185 FullName: ZSCHN01LP0185.zucisystems.com
+2024-01-25 09:56:09,690 INFO o.a.j.s.FileServer: Default base='C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin'
+2024-01-25 09:56:09,692 INFO o.a.j.s.FileServer: Set new base='C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\extras'
+2024-01-25 09:56:09,846 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-01-25 09:56:09,872 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-01-25 09:56:09,878 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-01-25 09:56:09,885 INFO o.a.j.s.SaveService: Loading file: C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\extras\tp1.jmx
+2024-01-25 09:56:09,963 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-01-25 09:56:09,963 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-01-25 09:56:09,963 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-01-25 09:56:09,963 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-01-25 09:56:09,964 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-01-25 09:56:09,964 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-01-25 09:56:10,355 INFO o.a.j.JMeter: Creating summariser <summary>
+2024-01-25 09:56:10,365 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-01-25 09:56:10,366 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-01-25 09:56:10,366 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-01-25 09:56:10,374 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-01-25 09:56:10,374 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-01-25 09:56:10,820 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-ffw-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:56:10,825 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-functions-2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:56:10,830 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:56:10,837 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:56:10,843 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:56:10,857 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-fifo-0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:56:10,864 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-composite-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:56:10,867 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:56:10,872 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:56:10,878 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:56:11,065 INFO o.a.j.JMeter: Running test (1706156771064)
+2024-01-25 09:56:11,167 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-01-25 09:56:11,168 INFO o.a.j.e.StandardJMeterEngine: Starting 4 threads for group Thread Group.
+2024-01-25 09:56:11,168 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-01-25 09:56:11,168 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=4 ramp-up=1 delayedStart=false
+2024-01-25 09:56:11,178 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-01-25 09:56:11,178 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-01-25 09:56:11,178 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-01-25 09:56:11,212 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ZSCHN01LP0185
+2024-01-25 09:56:11,224 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-01-25 09:56:11,227 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-01-25 09:56:11,228 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-01-25 09:56:11,228 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-01-25 09:56:11,228 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-01-25 09:56:11,423 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2024-01-25 09:56:11,453 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2024-01-25 09:56:11,461 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2024-01-25 09:56:11,462 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2024-01-25 09:56:11,671 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2024-01-25 09:56:11,921 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2024-01-25 09:56:12,318 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2024-01-25 09:56:12,323 INFO o.a.j.u.SSLManager: KeyStore created OK
+2024-01-25 09:56:12,323 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2024-01-25 09:56:13,658 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-01-25 09:56:13,658 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2024-01-25 09:56:13,658 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-01-25 09:56:13,658 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2024-01-25 09:56:13,658 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2024-01-25 09:56:13,659 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2024-01-25 09:56:13,668 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2024-01-25 09:56:13,668 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2024-01-25 09:56:13,669 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-01-25 09:56:13,672 INFO o.a.j.r.Summariser: summary =      4 in 00:00:03 =    1.5/s Avg:  2059 Min:  1743 Max:  2292 Err:     0 (0.00%)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2024-01-25 09:57:10,184 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-ffw-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,223 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-functions-2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,224 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,226 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,228 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,229 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-fifo-0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,233 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-composite-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,233 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,235 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,236 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,256 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-ffw-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,257 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-functions-2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,259 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,260 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,261 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,261 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-fifo-0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,264 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-composite-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,264 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,266 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:10,266 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 09:57:31,219 INFO o.a.j.e.KeyToolUtils: Exception checking for keytool existence, will return false, try another way.
+2024-01-25 09:57:31,943 INFO o.a.j.e.KeyToolUtils: keytool found at 'C:\Program Files\Java\jre1.8.0_291\bin\keytool'
+2024-01-25 09:57:31,944 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 09:57:42,142 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-01-25 09:57:57,706 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2024-01-25 10:03:28,653 WARN o.a.j.p.h.p.ProxyControl: Existing ROOT Certificate has expired, a new one will be created, ensure you install it in browser, message: NotAfter: Mon Jan 15 20:06:30 IST 2024
+java.security.cert.CertificateExpiredException: NotAfter: Mon Jan 15 20:06:30 IST 2024
+	at sun.security.x509.CertificateValidity.valid(Unknown Source) ~[?:1.8.0_291]
+	at sun.security.x509.X509CertImpl.checkValidity(Unknown Source) ~[?:1.8.0_291]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initDynamicKeyStore(ProxyControl.java:1583) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.initKeyStore(ProxyControl.java:1529) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:536) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:630) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:468) [ApacheJMeter_http.jar:5.6.2]
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source) [?:1.8.0_291]
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source) [?:1.8.0_291]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source) [?:1.8.0_291]
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source) [?:1.8.0_291]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source) [?:1.8.0_291]
+	at com.github.weisj.darklaf.ui.button.DarkButtonListener.mouseReleased(DarkButtonListener.java:72) [darklaf-core-2.7.3.jar:2.7.3]
+	at java.awt.Component.processMouseEvent(Unknown Source) [?:1.8.0_291]
+	at javax.swing.JComponent.processMouseEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.processEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Container.processEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Window.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_291]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_291]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_291]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_291]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_291]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_291]
+2024-01-25 10:03:28,670 INFO o.a.j.p.h.p.ProxyControl: Creating HTTP(S) Test Script Recorder Root CA in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks, ensure you install certificate in your Browser for recording
+2024-01-25 10:03:34,138 INFO o.a.j.p.h.p.ProxyControl: Created keystore in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:03:34,141 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8080
+2024-01-25 10:03:34,145 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2024-01-25 10:03:34,255 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-ffw-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.protocol.http.proxy.SamplerCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:03:34,257 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-functions-2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.protocol.http.proxy.SamplerCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:03:34,259 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.protocol.http.proxy.SamplerCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:03:34,261 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.protocol.http.proxy.SamplerCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:03:34,262 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.protocol.http.proxy.SamplerCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:03:34,263 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-fifo-0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.protocol.http.proxy.SamplerCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:03:34,269 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-composite-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.protocol.http.proxy.SamplerCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:03:34,271 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.protocol.http.proxy.SamplerCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:03:34,274 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.protocol.http.proxy.SamplerCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:03:34,275 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.protocol.http.proxy.SamplerCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:03:34,279 INFO o.a.j.p.h.p.Proxy: Proxy will remove the headers: If-Modified-Since,If-None-Match,Host
+2024-01-25 10:03:34,774 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/canonical.html-1 into controller LaunchURL
+2024-01-25 10:03:34,796 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/success.txt-2 into controller LaunchURL
+2024-01-25 10:03:34,808 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/success.txt-3 into controller LaunchURL
+2024-01-25 10:03:43,764 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2024-01-25 10:05:28,012 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2024-01-25 10:05:28,013 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2024-01-25 10:05:28,013 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8080
+2024-01-25 10:05:28,017 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2024-01-25 10:05:28,150 INFO o.a.j.p.h.p.ProxyControl: [59791]  Creating entry spocs.getpocket.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:05:28,427 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/canonical.html-5 into controller LaunchURL
+2024-01-25 10:05:28,443 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/success.txt-6 into controller LaunchURL
+2024-01-25 10:05:28,454 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/success.txt-7 into controller LaunchURL
+2024-01-25 10:05:28,836 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/-4 into controller LaunchURL
+2024-01-25 10:05:32,750 INFO o.a.j.p.h.p.ProxyControl: [59786]  Creating entry firefox.settings.services.mozilla.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:05:32,752 INFO o.a.j.p.h.p.Proxy: [59791]  KeyStore for SSL loaded OK and put host 'spocs.getpocket.com' in map with key (spocs.getpocket.com)
+2024-01-25 10:05:34,127 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/spocs-8 into controller LaunchURL
+2024-01-25 10:05:37,752 INFO o.a.j.p.h.p.ProxyControl: [59792]  Creating entry incoming.telemetry.mozilla.org in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:05:37,755 INFO o.a.j.p.h.p.Proxy: [59786]  KeyStore for SSL loaded OK and put host 'firefox.settings.services.mozilla.com' in map with key (firefox.settings.services.mozilla.com)
+2024-01-25 10:05:38,000 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US-9 into controller LaunchURL
+2024-01-25 10:05:43,776 INFO o.a.j.p.h.p.Proxy: [59792]  KeyStore for SSL loaded OK and put host 'incoming.telemetry.mozilla.org' in map with key (incoming.telemetry.mozilla.org)
+2024-01-25 10:05:43,809 WARN o.a.j.p.h.p.Proxy: [59792]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: readHandshakeRecord
+2024-01-25 10:05:43,850 INFO o.a.j.p.h.p.ProxyControl: [59811]  Creating entry img-getpocket.cdn.mozilla.net in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:05:44,310 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/messaging-system/undesired-events/1/3d782f4c-51c9-4008-b75f-5331ccba1e9c-14 into controller LaunchURL
+2024-01-25 10:05:44,498 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/use-counters/1/e86a3a6c-2b85-48bb-b9fa-7487ea5f66ee-12 into controller LaunchURL
+2024-01-25 10:05:45,076 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/messaging-system/undesired-events/1/96bf8113-6429-43f4-8dd6-400807bd70e2-10 into controller LaunchURL
+2024-01-25 10:05:45,176 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/messaging-system/undesired-events/1/3830c6e3-c6b6-4009-b0ca-3c1f3c7bc6d0-13 into controller LaunchURL
+2024-01-25 10:05:45,311 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/messaging-system/undesired-events/1/98126e94-5224-48ad-a03f-6a05ffdc1722-11 into controller LaunchURL
+2024-01-25 10:05:45,391 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/messaging-system/undesired-events/1/74478ffd-ef0b-487b-8bd0-3027477165ec-15 into controller LaunchURL
+2024-01-25 10:05:45,548 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/events/1/d3b406ca-6b7c-4a67-8b2e-624fb2860a98-16 into controller LaunchURL
+2024-01-25 10:05:45,764 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/metrics/1/4197ac67-1a68-4cb6-96dd-a02c24bd843c-17 into controller LaunchURL
+2024-01-25 10:05:46,448 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/pageload/1/39cbba7b-089b-412b-9e0a-7760db3eae94-18 into controller LaunchURL
+2024-01-25 10:05:46,624 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/newtab/1/91ebb5df-f9e3-4d1d-ba5f-64b4f4cc0442-19 into controller LaunchURL
+2024-01-25 10:05:46,715 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/baseline/1/03821b18-7397-4937-b804-0b3274ceab06-20 into controller LaunchURL
+2024-01-25 10:05:47,086 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/17df0421-6bec-4153-ad36-47c1e8226968-21 into controller LaunchURL
+2024-01-25 10:05:47,634 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/465de4f5-6e6d-4c5a-9c6f-82e8dacbca29-22 into controller LaunchURL
+2024-01-25 10:05:47,917 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/ac320c25-0bd2-4130-b465-a1b8d22b6cd3-23 into controller LaunchURL
+2024-01-25 10:05:48,448 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/992c92c9-47f2-4012-8e83-f0fd0e17526a-24 into controller LaunchURL
+2024-01-25 10:05:48,852 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/5c57f8bc-284b-4169-8dce-610d79a1a89d-25 into controller LaunchURL
+2024-01-25 10:05:49,261 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/e23061d5-5685-40ad-9185-f2bcda6cd484-26 into controller LaunchURL
+2024-01-25 10:05:49,264 INFO o.a.j.p.h.p.Proxy: [59811]  KeyStore for SSL loaded OK and put host 'img-getpocket.cdn.mozilla.net' in map with key (img-getpocket.cdn.mozilla.net)
+2024-01-25 10:05:49,289 INFO o.a.j.p.h.p.ProxyControl: [59805]  Creating entry firefox-api-proxy.cdn.mozilla.net in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:05:49,566 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fee811035-c62a-4eed-bf16-9ba695d89152.jpeg-27 into controller LaunchURL
+2024-01-25 10:05:49,600 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fecad9e4e-ecba-4572-94e5-71d507573682.png-28 into controller LaunchURL
+2024-01-25 10:05:49,625 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Feaa6de48-3542-4b75-89f8-6a47bdc72610.jpeg-29 into controller LaunchURL
+2024-01-25 10:05:49,649 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fd9abe06e-86f7-4dbb-9a28-6d681c146a64.jpeg-30 into controller LaunchURL
+2024-01-25 10:05:49,665 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fa06370b8-82a2-4b22-a448-bf17286785a9.jpeg-31 into controller LaunchURL
+2024-01-25 10:05:49,684 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fbb3d1ed8-9ce8-427e-835b-a0fad3cf3fc5.jpeg-32 into controller LaunchURL
+2024-01-25 10:05:49,697 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fed26d966-f493-4320-9597-f77dcedbc879.jpeg-33 into controller LaunchURL
+2024-01-25 10:05:49,720 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F5a69e679-2a05-47fd-aef7-e18a8696c7e1.jpeg-35 into controller LaunchURL
+2024-01-25 10:05:49,747 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fdcf1340e-5eb6-4658-b3af-f671d103738e.jpeg-34 into controller LaunchURL
+2024-01-25 10:05:54,285 INFO o.a.j.p.h.p.Proxy: [59805]  KeyStore for SSL loaded OK and put host 'firefox-api-proxy.cdn.mozilla.net' in map with key (firefox-api-proxy.cdn.mozilla.net)
+2024-01-25 10:05:54,583 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/desktop/v1/recommendations-36 into controller LaunchURL
+2024-01-25 10:05:59,370 INFO o.a.j.p.h.p.ProxyControl: [59862]  Creating entry www.ilovepdf.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:06:03,293 INFO o.a.j.p.h.p.Proxy: [59862]  KeyStore for SSL loaded OK and put host 'www.ilovepdf.com' in map with key (www.ilovepdf.com)
+2024-01-25 10:06:03,965 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/pdf_to_word-37 into controller LaunchURL
+2024-01-25 10:06:04,050 INFO o.a.j.p.h.p.ProxyControl: [59876]  Creating entry www.googletagmanager.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:06:04,403 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/activity-stream/sessions/1/2490623f-eda9-4133-9c55-811054f7c5b1-40 into controller LaunchURL
+2024-01-25 10:06:04,473 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/activity-stream/impression-stats/1/4311739e-d72a-471b-b688-b7e52bcf3dd0-39 into controller LaunchURL
+2024-01-25 10:06:04,593 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/activity-stream/impression-stats/1/4f653974-c7aa-42c6-8068-a71428b1806a-38 into controller LaunchURL
+2024-01-25 10:06:04,648 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/font/Graphik-Bold.woff2-41 into controller LaunchURL
+2024-01-25 10:06:04,682 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/font/Graphik-Semibold.woff2-43 into controller LaunchURL
+2024-01-25 10:06:04,708 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/font/Graphik-Medium.woff2-44 into controller LaunchURL
+2024-01-25 10:06:04,733 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/font/Graphik-Regular.woff2-42 into controller LaunchURL
+2024-01-25 10:06:04,754 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/dist/css/app.68bf0c9.css-46 into controller LaunchURL
+2024-01-25 10:06:04,781 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/dist/js/app.68bf0c9.js-45 into controller LaunchURL
+2024-01-25 10:06:05,019 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/js/ilove.min.js-47 into controller LaunchURL
+2024-01-25 10:06:05,232 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/svg_icons/preload.svg-49 into controller LaunchURL
+2024-01-25 10:06:05,246 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/ilovepdf.svg-48 into controller LaunchURL
+2024-01-25 10:06:05,270 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/icons/sprite.svg-50 into controller LaunchURL
+2024-01-25 10:06:05,636 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/js/plupload/plupload.full.min.js-51 into controller LaunchURL
+2024-01-25 10:06:06,254 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/app-icon.png-53 into controller LaunchURL
+2024-01-25 10:06:06,267 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/favicons-pdf/favicon-32x32.png-52 into controller LaunchURL
+2024-01-25 10:06:09,103 INFO o.a.j.p.h.p.ProxyControl: [59896]  Creating entry securepubads.g.doubleclick.net in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:06:09,107 INFO o.a.j.p.h.p.Proxy: [59876]  KeyStore for SSL loaded OK and put host 'www.googletagmanager.com' in map with key (www.googletagmanager.com)
+2024-01-25 10:06:09,739 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/gtag/js-54 into controller LaunchURL
+2024-01-25 10:06:13,895 INFO o.a.j.p.h.p.ProxyControl: [59893]  Creating entry evt.ilovepdf.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:06:13,901 INFO o.a.j.p.h.p.Proxy: [59896]  KeyStore for SSL loaded OK and put host 'securepubads.g.doubleclick.net' in map with key (securepubads.g.doubleclick.net)
+2024-01-25 10:06:14,416 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/tag/js/gpt.js-55 into controller LaunchURL
+2024-01-25 10:06:15,229 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/pagead/managed/js/gpt/m202401180101/pubads_impl.js-56 into controller LaunchURL
+2024-01-25 10:06:16,045 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/gampad/ads-57 into controller LaunchURL
+2024-01-25 10:06:18,613 INFO o.a.j.p.h.p.ProxyControl: [59913]  Creating entry static.criteo.net in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:06:18,617 INFO o.a.j.p.h.p.Proxy: [59893]  KeyStore for SSL loaded OK and put host 'evt.ilovepdf.com' in map with key (evt.ilovepdf.com)
+2024-01-25 10:06:19,302 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/-58 into controller LaunchURL
+2024-01-25 10:06:20,735 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/canonical.html-59 into controller LaunchURL
+2024-01-25 10:06:20,755 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/success.txt-61 into controller LaunchURL
+2024-01-25 10:06:20,767 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/success.txt-60 into controller LaunchURL
+2024-01-25 10:06:21,972 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/newtab/1/396b486f-2b33-4ec1-b1bf-ac232279f6d6-62 into controller LaunchURL
+2024-01-25 10:06:22,590 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/newtab/1/2f62ea37-f0d6-4af4-9c33-fc43ed7c3289-63 into controller LaunchURL
+2024-01-25 10:06:22,994 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/use-counters/1/5d2e9c56-9a95-4897-838e-1d87b5bc7dfc-64 into controller LaunchURL
+2024-01-25 10:06:23,402 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/events/1/449f2ec8-d771-4cf0-9047-bb96201034de-65 into controller LaunchURL
+2024-01-25 10:06:23,591 INFO o.a.j.p.h.p.ProxyControl: [59912]  Creating entry oa.openxcdn.net in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:06:23,597 INFO o.a.j.p.h.p.Proxy: [59913]  KeyStore for SSL loaded OK and put host 'static.criteo.net' in map with key (static.criteo.net)
+2024-01-25 10:06:23,806 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/metrics/1/57e23a24-8b0e-4dce-a443-228c59e42e86-66 into controller LaunchURL
+2024-01-25 10:06:24,162 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/js/ld/publishertag.ids.js-67 into controller LaunchURL
+2024-01-25 10:06:24,181 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/newtab/1/e25e3c31-392b-493f-8069-4bf4997024a5-68 into controller LaunchURL
+2024-01-25 10:06:24,619 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/baseline/1/4c554423-b3f4-498e-8a57-543fb0ae22db-69 into controller LaunchURL
+2024-01-25 10:06:24,968 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/newtab/1/50f3c295-60c5-4b80-af95-971790b32a9f-70 into controller LaunchURL
+2024-01-25 10:06:25,436 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/9f866e23-10c0-4324-89ee-7f3aaf5c5778-71 into controller LaunchURL
+2024-01-25 10:06:25,845 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/895b3cb2-eb35-463c-ae6d-49820a699f3c-72 into controller LaunchURL
+2024-01-25 10:06:26,152 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/d84c9157-1e62-417d-a03e-3aabc2786d5f-73 into controller LaunchURL
+2024-01-25 10:06:26,655 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/4f5de2b1-09c4-4333-b5d7-75512ac56327-74 into controller LaunchURL
+2024-01-25 10:06:27,060 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/744b36a6-5db5-48db-a485-e5c5a5669a95-75 into controller LaunchURL
+2024-01-25 10:06:27,680 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/417cf481-c21f-4b0d-9c45-9d5d92296b88-76 into controller LaunchURL
+2024-01-25 10:06:28,087 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/newtab/1/72bdbf82-1e72-4621-baaa-80df1a45a04f-77 into controller LaunchURL
+2024-01-25 10:06:28,295 INFO o.a.j.p.h.p.ProxyControl: [59911]  Creating entry 69a67c40c87f2a2b11c829d102c6bbbf.safeframe.googlesyndication.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:06:28,299 INFO o.a.j.p.h.p.Proxy: [59912]  KeyStore for SSL loaded OK and put host 'oa.openxcdn.net' in map with key (oa.openxcdn.net)
+2024-01-25 10:06:28,492 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/esp.js-78 into controller LaunchURL
+2024-01-25 10:06:32,396 INFO o.a.j.p.h.p.ProxyControl: [59909]  Creating entry www.google-analytics.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:06:32,400 INFO o.a.j.p.h.p.Proxy: [59911]  KeyStore for SSL loaded OK and put host '69a67c40c87f2a2b11c829d102c6bbbf.safeframe.googlesyndication.com' in map with key (69a67c40c87f2a2b11c829d102c6bbbf.safeframe.googlesyndication.com)
+2024-01-25 10:06:32,451 WARN o.a.j.p.h.p.Proxy: [59911]  Problem with SSL certificate for url  for '69a67c40c87f2a2b11c829d102c6bbbf.safeframe.googlesyndication.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-01-25 10:06:32,585 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/canonical.html-79 into controller LaunchURL
+2024-01-25 10:06:32,600 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/success.txt-81 into controller LaunchURL
+2024-01-25 10:06:32,613 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/success.txt-80 into controller LaunchURL
+2024-01-25 10:06:36,382 INFO o.a.j.p.h.p.ProxyControl: [59955]  Creating entry oajs.openx.net in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:06:36,384 INFO o.a.j.p.h.p.Proxy: [59909]  KeyStore for SSL loaded OK and put host 'www.google-analytics.com' in map with key (www.google-analytics.com)
+2024-01-25 10:06:36,872 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/g/collect?v=2&tid=G-44KQ8HETWT&gtm=45je41m0v9126785653&_p=1706157364009&gcs=G111&gcd=11t1t1l1l5&dma=0&tag_exp=71847096&cid=2082415729.1706157370&ul=en-us&sr=1366x768&_eu=AEA&_s=2&sid=1706157369&sct=1&seg=0&dl=https%3A%2F%2Fwww.ilovepdf.com%2Fpdf_to_word&dt=PDF%20to%20WORD%20%7C%20Convert%20PDF%20to%20Word%20online%20for%20free&en=scroll&epn.percent_scrolled=90&_et=6&tfd=15354-82 into controller LaunchURL
+2024-01-25 10:06:36,902 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/g/collect?v=2&tid=G-44KQ8HETWT&gtm=45je41m0v9126785653&_p=1706157364009&gcs=G111&gcd=11t1t1l1l5&dma=0&tag_exp=71847096&cid=2082415729.1706157370&ul=en-us&sr=1366x768&_s=1&sid=1706157369&sct=1&seg=0&dl=https%3A%2F%2Fwww.ilovepdf.com%2Fpdf_to_word&dt=PDF%20to%20WORD%20%7C%20Convert%20PDF%20to%20Word%20online%20for%20free&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=10341-83 into controller LaunchURL
+2024-01-25 10:06:41,669 INFO o.a.j.p.h.p.ProxyControl: [59950]  Creating entry api55o.ilovepdf.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:06:41,672 INFO o.a.j.p.h.p.Proxy: [59955]  KeyStore for SSL loaded OK and put host 'oajs.openx.net' in map with key (oajs.openx.net)
+2024-01-25 10:06:42,149 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/esp-84 into controller LaunchURL
+2024-01-25 10:06:46,143 INFO o.a.j.p.h.p.ProxyControl: [59934]  Creating entry gumi.criteo.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:06:46,147 INFO o.a.j.p.h.p.Proxy: [59950]  KeyStore for SSL loaded OK and put host 'api55o.ilovepdf.com' in map with key (api55o.ilovepdf.com)
+2024-01-25 10:06:47,869 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/status.json-85 into controller LaunchURL
+2024-01-25 10:06:48,284 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/js/pdfjs/pdf.min.js-86 into controller LaunchURL
+2024-01-25 10:06:48,310 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/filetype/pdf.svg-88 into controller LaunchURL
+2024-01-25 10:06:48,348 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/svg_icons/check-white.svg-87 into controller LaunchURL
+2024-01-25 10:06:49,089 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/v1/upload-89 into controller LaunchURL
+2024-01-25 10:06:49,121 INFO o.a.j.s.FileServer: Stored: Perfromance Testing Exercise.pdf
+2024-01-25 10:06:49,122 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/-91 into controller LaunchURL
+2024-01-25 10:06:49,161 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/js/pdfjs/pdf.worker.min.js-90 into controller LaunchURL
+2024-01-25 10:06:49,183 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/templates/new-premium-92 into controller LaunchURL
+2024-01-25 10:06:49,737 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/premium/header.svg-99 into controller LaunchURL
+2024-01-25 10:06:49,761 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/logos/pdf-association-logo.svg-96 into controller LaunchURL
+2024-01-25 10:06:49,792 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/logos/ssl-encrypted-logo.svg-94 into controller LaunchURL
+2024-01-25 10:06:49,815 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/logos/secure-payment-logo.svg-98 into controller LaunchURL
+2024-01-25 10:06:49,839 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/logos/iso-logo.svg-95 into controller LaunchURL
+2024-01-25 10:06:49,870 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/animated-check.gif-97 into controller LaunchURL
+2024-01-25 10:06:50,158 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/icons/close_w.svg-100 into controller LaunchURL
+2024-01-25 10:06:50,366 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/svg_icons/auth_facebook--sm.svg-101 into controller LaunchURL
+2024-01-25 10:06:50,381 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/input/user.svg-103 into controller LaunchURL
+2024-01-25 10:06:50,392 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/svg_icons/auth_google--sm.svg-102 into controller LaunchURL
+2024-01-25 10:06:50,401 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/input/email.svg-105 into controller LaunchURL
+2024-01-25 10:06:50,414 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/input/secure.svg-104 into controller LaunchURL
+2024-01-25 10:06:50,572 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/img/svg_icons/wait.svg-106 into controller LaunchURL
+2024-01-25 10:06:51,844 INFO o.a.j.p.h.p.ProxyControl: [59967]  Creating entry safebrowsing.googleapis.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:06:51,848 INFO o.a.j.p.h.p.Proxy: [59934]  KeyStore for SSL loaded OK and put host 'gumi.criteo.com' in map with key (gumi.criteo.com)
+2024-01-25 10:06:52,201 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/syncframe-107 into controller LaunchURL
+2024-01-25 10:06:52,404 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/v1/upload-93 into controller LaunchURL
+2024-01-25 10:06:54,651 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/g/collect?v=2&tid=G-44KQ8HETWT&gtm=45je41m0v9126785653&_p=1706157364009&gcs=G111&gcd=11t1t1l1l5&dma=0&tag_exp=71847096&cid=2082415729.1706157370&ul=en-us&sr=1366x768&_s=3&sid=1706157369&sct=1&seg=1&dl=https%3A%2F%2Fwww.ilovepdf.com%2Fpdf_to_word&dt=PDF%20to%20WORD%20%7C%20Convert%20PDF%20to%20Word%20online%20for%20free&en=limit&_ee=1&ep.reason=filenumber&ep.tool=pdfword&epn.quantity=2&_et=11248&tfd=54231-108 into controller LaunchURL
+2024-01-25 10:06:56,717 INFO o.a.j.p.h.p.ProxyControl: [59966]  Creating entry google-bidout-d.openx.net in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:06:56,721 INFO o.a.j.p.h.p.Proxy: [59967]  KeyStore for SSL loaded OK and put host 'safebrowsing.googleapis.com' in map with key (safebrowsing.googleapis.com)
+2024-01-25 10:06:56,734 WARN o.a.j.p.h.p.Proxy: [59967]  Problem with SSL certificate for url  for 'safebrowsing.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: readHandshakeRecord
+2024-01-25 10:07:03,590 INFO o.a.j.p.h.p.ProxyControl: [60015]  Creating entry gem.gbc.criteo.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:07:03,596 INFO o.a.j.p.h.p.Proxy: [59966]  KeyStore for SSL loaded OK and put host 'google-bidout-d.openx.net' in map with key (google-bidout-d.openx.net)
+2024-01-25 10:07:03,835 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/w/1.0/pd-111 into controller LaunchURL
+2024-01-25 10:07:04,036 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/w/1.0/pd-112 into controller LaunchURL
+2024-01-25 10:07:08,027 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2024-01-25 10:07:10,161 INFO o.a.j.p.h.p.ProxyControl: [60014]  Creating entry ag.gbc.criteo.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:07:10,165 INFO o.a.j.p.h.p.Proxy: [60015]  KeyStore for SSL loaded OK and put host 'gem.gbc.criteo.com' in map with key (gem.gbc.criteo.com)
+2024-01-25 10:07:14,470 INFO o.a.j.p.h.p.ProxyControl: [60013]  Creating entry dnacdn.net in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:07:14,473 INFO o.a.j.p.h.p.Proxy: [60014]  KeyStore for SSL loaded OK and put host 'ag.gbc.criteo.com' in map with key (ag.gbc.criteo.com)
+2024-01-25 10:07:19,154 INFO o.a.j.p.h.p.ProxyControl: [60021]  Creating entry pagead2.googlesyndication.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:07:19,158 INFO o.a.j.p.h.p.Proxy: [60013]  KeyStore for SSL loaded OK and put host 'dnacdn.net' in map with key (dnacdn.net)
+2024-01-25 10:07:23,763 INFO o.a.j.p.h.p.Proxy: [60021]  KeyStore for SSL loaded OK and put host 'pagead2.googlesyndication.com' in map with key (pagead2.googlesyndication.com)
+2024-01-25 10:08:15,050 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2024-01-25 10:08:15,050 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2024-01-25 10:08:15,050 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8080
+2024-01-25 10:08:15,052 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2024-01-25 10:08:15,069 INFO o.a.j.p.h.p.ProxyControl: [59643]  Creating entry content-signature-2.cdn.mozilla.net in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:08:15,258 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/newidsd-113 into controller LaunchURL
+2024-01-25 10:08:15,272 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/newidsd-114 into controller LaunchURL
+2024-01-25 10:08:15,286 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/dna-115 into controller LaunchURL
+2024-01-25 10:08:15,300 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/getconfig/sodar-116 into controller LaunchURL
+2024-01-25 10:08:15,313 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/canonical.html-121 into controller LaunchURL
+2024-01-25 10:08:15,324 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/success.txt-125 into controller LaunchURL
+2024-01-25 10:08:15,334 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/success.txt-124 into controller LaunchURL
+2024-01-25 10:08:15,343 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fd9abe06e-86f7-4dbb-9a28-6d681c146a64.jpeg-122 into controller LaunchURL
+2024-01-25 10:08:15,351 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fa06370b8-82a2-4b22-a448-bf17286785a9.jpeg-123 into controller LaunchURL
+2024-01-25 10:08:15,364 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fdcf1340e-5eb6-4658-b3af-f671d103738e.jpeg-126 into controller LaunchURL
+2024-01-25 10:08:15,472 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fecad9e4e-ecba-4572-94e5-71d507573682.png-128 into controller LaunchURL
+2024-01-25 10:08:15,486 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fbb3d1ed8-9ce8-427e-835b-a0fad3cf3fc5.jpeg-129 into controller LaunchURL
+2024-01-25 10:08:15,500 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fee811035-c62a-4eed-bf16-9ba695d89152.jpeg-130 into controller LaunchURL
+2024-01-25 10:08:15,664 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/metrics/1/0ac07d0e-e2a9-485e-9e23-6e5c45fc0dd9-127 into controller LaunchURL
+2024-01-25 10:08:16,401 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/baseline/1/83082e3f-84ed-48af-ae7c-445769250eb4-131 into controller LaunchURL
+2024-01-25 10:08:16,587 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/newtab/1/5957748a-fdc9-4e04-aca8-a0a96518ad80-132 into controller LaunchURL
+2024-01-25 10:08:17,079 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/use-counters/1/9cf6d935-ff90-491d-aee4-b4e07c7204e5-133 into controller LaunchURL
+2024-01-25 10:08:17,485 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/events/1/b5c1e1c0-a3ab-4bc9-9c6a-8c608f223474-134 into controller LaunchURL
+2024-01-25 10:08:17,891 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/newtab/1/6264f75f-2c45-4bdc-a28b-11603b7d0357-135 into controller LaunchURL
+2024-01-25 10:08:18,296 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/baseline/1/9444e943-3d95-407c-a5ba-1325e19b8b82-136 into controller LaunchURL
+2024-01-25 10:08:18,704 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/0b0aac15-90e4-4230-8983-6249b7192e25-137 into controller LaunchURL
+2024-01-25 10:08:19,122 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/35cdba59-ca4e-4396-ac62-2973dd495007-138 into controller LaunchURL
+2024-01-25 10:08:19,741 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/a941b2bc-7ce6-41e4-ae66-66bcf7e2d413-139 into controller LaunchURL
+2024-01-25 10:08:20,144 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/fb7410a3-babf-4c94-a72e-23ae1d1bf748-140 into controller LaunchURL
+2024-01-25 10:08:20,435 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/e8b62e6a-6136-4437-9b52-e1e4369fb610-141 into controller LaunchURL
+2024-01-25 10:08:20,957 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/newtab/1/f77a041d-1fd5-4951-aa77-cc536959a0f4-142 into controller LaunchURL
+2024-01-25 10:08:20,971 INFO o.a.j.p.h.p.Proxy: [59643]  KeyStore for SSL loaded OK and put host 'content-signature-2.cdn.mozilla.net' in map with key (content-signature-2.cdn.mozilla.net)
+2024-01-25 10:08:21,225 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/chains/remote-settings.content-signature.mozilla.org-2024-02-08-20-06-04.chain-144 into controller LaunchURL
+2024-01-25 10:08:21,248 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/newtab/1/ef81a8af-d9cc-49f4-9825-cc563366262a-143 into controller LaunchURL
+2024-01-25 10:08:28,424 WARN o.a.j.p.h.p.Proxy: [59705]  Problem with SSL certificate for url  for 'www.ilovepdf.com'? Ensure browser is set to accept the JMeter proxy cert: java.net.SocketException: Software caused connection abort: recv failed
+2024-01-25 10:08:28,425 WARN o.a.j.p.h.p.Proxy: [59703]  Problem with SSL certificate for url  for 'www.ilovepdf.com'? Ensure browser is set to accept the JMeter proxy cert: java.net.SocketException: Software caused connection abort: recv failed
+2024-01-25 10:08:28,427 WARN o.a.j.p.h.p.Proxy: [59709]  Problem with SSL certificate for url  for 'www.ilovepdf.com'? Ensure browser is set to accept the JMeter proxy cert: java.net.SocketException: Software caused connection abort: recv failed
+2024-01-25 10:08:28,427 WARN o.a.j.p.h.p.Proxy: [59704]  Problem with SSL certificate for url  for 'www.ilovepdf.com'? Ensure browser is set to accept the JMeter proxy cert: java.net.SocketException: Software caused connection abort: recv failed
+2024-01-25 10:08:28,429 WARN o.a.j.p.h.p.Proxy: [59702]  Problem with SSL certificate for url  for 'www.ilovepdf.com'? Ensure browser is set to accept the JMeter proxy cert: java.net.SocketException: Software caused connection abort: recv failed
+2024-01-25 10:08:28,468 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/pdf_to_word-145 into controller LaunchURL
+2024-01-25 10:08:28,880 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/activity-stream/sessions/1/2d490fa1-5b7a-4339-a227-b61f4b122bd5-147 into controller LaunchURL
+2024-01-25 10:08:28,954 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/activity-stream/impression-stats/1/ef9f8625-2207-4691-b840-62aa01b44adc-146 into controller LaunchURL
+2024-01-25 10:08:28,983 INFO o.a.j.p.h.p.ProxyControl: [59714]  Creating entry 4388e14ca2cdfac291ea90707749ff30.safeframe.googlesyndication.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:08:29,073 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/activity-stream/impression-stats/1/0955b75e-7218-44b3-b9eb-6375fc3b09c2-148 into controller LaunchURL
+2024-01-25 10:08:29,117 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/-149 into controller LaunchURL
+2024-01-25 10:08:29,885 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/gampad/ads-150 into controller LaunchURL
+2024-01-25 10:08:29,899 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/g/collect?v=2&tid=G-44KQ8HETWT&gtm=45je41m0v9126785653&_p=1706157508351&gcs=G111&gcd=11t1t1l1l5&dma=0&tag_exp=71847096&cid=2082415729.1706157370&ul=en-us&sr=1366x768&_s=1&sid=1706157369&sct=1&seg=1&dl=https%3A%2F%2Fwww.ilovepdf.com%2Fpdf_to_word&dt=PDF%20to%20WORD%20%7C%20Convert%20PDF%20to%20Word%20online%20for%20free&en=page_view&_ee=1&tfd=1088-151 into controller LaunchURL
+2024-01-25 10:08:30,901 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/g/collect?v=2&tid=G-44KQ8HETWT&gtm=45je41m0v9126785653&_p=1706157508351&gcs=G111&gcd=11t1t1l1l5&dma=0&tag_exp=71847096&cid=2082415729.1706157370&ul=en-us&sr=1366x768&_eu=AEA&_s=2&sid=1706157369&sct=1&seg=1&dl=https%3A%2F%2Fwww.ilovepdf.com%2Fpdf_to_word&dt=PDF%20to%20WORD%20%7C%20Convert%20PDF%20to%20Word%20online%20for%20free&en=scroll&epn.percent_scrolled=90&_et=29&tfd=2101-152 into controller LaunchURL
+2024-01-25 10:08:33,255 INFO o.a.j.p.h.p.ProxyControl: [59719]  Creating entry cdn.ampproject.org in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:08:33,261 INFO o.a.j.p.h.p.Proxy: [59714]  KeyStore for SSL loaded OK and put host '4388e14ca2cdfac291ea90707749ff30.safeframe.googlesyndication.com' in map with key (4388e14ca2cdfac291ea90707749ff30.safeframe.googlesyndication.com)
+2024-01-25 10:08:33,296 WARN o.a.j.p.h.p.Proxy: [59714]  Problem with SSL certificate for url  for '4388e14ca2cdfac291ea90707749ff30.safeframe.googlesyndication.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-01-25 10:08:33,554 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/canonical.html-153 into controller LaunchURL
+2024-01-25 10:08:33,573 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/success.txt-154 into controller LaunchURL
+2024-01-25 10:08:33,581 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/success.txt-155 into controller LaunchURL
+2024-01-25 10:08:36,013 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/g/collect?v=2&tid=G-44KQ8HETWT&gtm=45je41m0v9126785653&_p=1706157508351&gcs=G111&gcd=11t1t1l1l5&dma=0&tag_exp=71847096&cid=2082415729.1706157370&ul=en-us&sr=1366x768&_eu=AEI&_s=3&sid=1706157369&sct=1&seg=1&dl=https%3A%2F%2Fwww.ilovepdf.com%2Fpdf_to_word&dt=PDF%20to%20WORD%20%7C%20Convert%20PDF%20to%20Word%20online%20for%20free&en=ad_impression&ep.query_id=CI7ogIjc94MDFe7FcwEdVecIKQ&_et=1007&tfd=7173-156 into controller LaunchURL
+2024-01-25 10:08:38,164 INFO o.a.j.p.h.p.ProxyControl: [59723]  Creating entry fonts.googleapis.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:08:38,165 INFO o.a.j.p.h.p.Proxy: [59719]  KeyStore for SSL loaded OK and put host 'cdn.ampproject.org' in map with key (cdn.ampproject.org)
+2024-01-25 10:08:38,470 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/rtv/012401091919000/v0/amp-ad-exit-0.1.mjs-158 into controller LaunchURL
+2024-01-25 10:08:38,687 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/rtv/012401091919000/v0/amp-analytics-0.1.mjs-157 into controller LaunchURL
+2024-01-25 10:08:43,222 INFO o.a.j.p.h.p.Proxy: [59723]  KeyStore for SSL loaded OK and put host 'fonts.googleapis.com' in map with key (fonts.googleapis.com)
+2024-01-25 10:08:43,573 INFO o.a.j.p.h.p.ProxyControl: [59742]  Creating entry tpc.googlesyndication.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:08:43,578 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/rtv/012401091919000/v0/amp-fit-text-0.1.mjs-160 into controller LaunchURL
+2024-01-25 10:08:43,592 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/rtv/012401091919000/v0/amp-form-0.1.mjs-159 into controller LaunchURL
+2024-01-25 10:08:43,606 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/css-161 into controller LaunchURL
+2024-01-25 10:08:43,620 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/rtv/012401091919000/amp4ads-v0.mjs-162 into controller LaunchURL
+2024-01-25 10:08:47,675 INFO o.a.j.p.h.p.Proxy: [59742]  KeyStore for SSL loaded OK and put host 'tpc.googlesyndication.com' in map with key (tpc.googlesyndication.com)
+2024-01-25 10:08:47,678 INFO o.a.j.p.h.p.ProxyControl: [59745]  Creating entry fonts.gstatic.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:08:47,694 WARN o.a.j.p.h.p.Proxy: [59742]  Problem with SSL certificate for url  for 'tpc.googlesyndication.com'? Ensure browser is set to accept the JMeter proxy cert: readHandshakeRecord
+2024-01-25 10:08:48,086 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/pagead/images/abg/icon.png-163 into controller LaunchURL
+2024-01-25 10:08:48,100 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/pagead/images/abg/en_bl.png-164 into controller LaunchURL
+2024-01-25 10:08:49,060 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2024-01-25 10:08:51,981 INFO o.a.j.p.h.p.Proxy: [59745]  KeyStore for SSL loaded OK and put host 'fonts.gstatic.com' in map with key (fonts.gstatic.com)
+2024-01-25 10:08:51,995 WARN o.a.j.p.h.p.Proxy: [59743]  Problem with SSL certificate for url  for 'tpc.googlesyndication.com'? Ensure browser is set to accept the JMeter proxy cert: readHandshakeRecord
+2024-01-25 10:08:52,376 ERROR o.a.j.p.h.p.Proxy: 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_291]
+	at java.net.SocketOutputStream.socketWrite(Unknown Source) ~[?:1.8.0_291]
+	at java.net.SocketOutputStream.write(Unknown Source) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLSocketOutputRecord.deliver(Unknown Source) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLSocketImpl$AppOutputStream.write(Unknown Source) ~[?:1.8.0_291]
+	at java.io.BufferedOutputStream.write(Unknown Source) ~[?:1.8.0_291]
+	at java.io.FilterOutputStream.write(Unknown Source) ~[?:1.8.0_291]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeToClient(Proxy.java:515) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:258) [ApacheJMeter_http.jar:5.6.2]
+2024-01-25 10:08:52,378 ERROR o.a.j.p.h.p.Proxy: [59745]  Exception when processing sample
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_291]
+	at java.net.SocketOutputStream.socketWrite(Unknown Source) ~[?:1.8.0_291]
+	at java.net.SocketOutputStream.write(Unknown Source) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLSocketOutputRecord.deliver(Unknown Source) ~[?:1.8.0_291]
+	at sun.security.ssl.SSLSocketImpl$AppOutputStream.write(Unknown Source) ~[?:1.8.0_291]
+	at java.io.BufferedOutputStream.write(Unknown Source) ~[?:1.8.0_291]
+	at java.io.FilterOutputStream.write(Unknown Source) ~[?:1.8.0_291]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeToClient(Proxy.java:515) ~[ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:258) [ApacheJMeter_http.jar:5.6.2]
+2024-01-25 10:08:52,379 WARN o.a.j.p.h.p.Proxy: [59745]  Exception while writing error
+java.net.SocketException: Socket is closed
+	at sun.security.ssl.SSLSocketImpl.getOutputStream(Unknown Source) ~[?:1.8.0_291]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeErrorToClient(Proxy.java:590) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:275) [ApacheJMeter_http.jar:5.6.2]
+2024-01-25 10:09:46,010 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2024-01-25 10:09:46,010 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2024-01-25 10:09:46,010 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8080
+2024-01-25 10:09:46,013 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2024-01-25 10:09:46,153 INFO o.a.j.p.h.p.ProxyControl: [59821]  Creating entry contile.services.mozilla.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:09:46,217 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/s/googlesans/v58/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvbQui-A3tw.woff2-166 into controller LaunchURL
+2024-01-25 10:09:46,237 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/s/googlesans/v58/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvbQui-A3tw.woff2-165 into controller LaunchURL
+2024-01-25 10:09:46,246 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/canonical.html-170 into controller LaunchURL
+2024-01-25 10:09:46,256 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/success.txt-171 into controller LaunchURL
+2024-01-25 10:09:46,265 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/success.txt-172 into controller LaunchURL
+2024-01-25 10:09:46,433 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F8c0ec924-564a-4ddf-bd7c-b8bc39e1d7e7.jpeg-176 into controller LaunchURL
+2024-01-25 10:09:46,441 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F093fcdc5-c051-4dc1-8288-4fac22214367.jpeg-174 into controller LaunchURL
+2024-01-25 10:09:46,447 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F8b855bc4-287b-4049-a4fe-7dfbd297d399.jpeg-175 into controller LaunchURL
+2024-01-25 10:09:46,455 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fbe50e388-c76c-41ec-8980-41b6aff2a192.jpeg-179 into controller LaunchURL
+2024-01-25 10:09:46,460 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F6e235a5c-b0c4-4939-b618-46f5f29475db.jpeg-178 into controller LaunchURL
+2024-01-25 10:09:46,465 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F4f6088e8-788b-4622-9360-64358d945668.jpeg-180 into controller LaunchURL
+2024-01-25 10:09:46,470 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fd1e53ba0-a124-479b-90c3-2b94f73f3553.jpeg-182 into controller LaunchURL
+2024-01-25 10:09:46,475 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fd4c34e8a-ed61-48e2-bb37-51440433453f.jpeg-183 into controller LaunchURL
+2024-01-25 10:09:46,480 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F7c276a40-2817-4b98-9369-c9943f64ce7a.jpeg-184 into controller LaunchURL
+2024-01-25 10:09:46,634 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/-177 into controller LaunchURL
+2024-01-25 10:09:46,687 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/use-counters/1/760f30c8-6713-4d47-ae7c-a6dcfa3384d4-181 into controller LaunchURL
+2024-01-25 10:09:46,757 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/-173 into controller LaunchURL
+2024-01-25 10:09:46,970 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/events/1/4cf29a14-f73b-40ff-979a-2384c934acd6-185 into controller LaunchURL
+2024-01-25 10:09:47,442 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/pageload/1/4a9e227b-6654-4e37-b389-a981cd2239e7-186 into controller LaunchURL
+2024-01-25 10:09:47,644 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F093fcdc5-c051-4dc1-8288-4fac22214367.jpeg-188 into controller LaunchURL
+2024-01-25 10:09:47,656 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fd4c34e8a-ed61-48e2-bb37-51440433453f.jpeg-189 into controller LaunchURL
+2024-01-25 10:09:47,668 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F7c276a40-2817-4b98-9369-c9943f64ce7a.jpeg-190 into controller LaunchURL
+2024-01-25 10:09:47,858 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/newtab/1/53e56690-0020-457a-931a-b52fd0349804-187 into controller LaunchURL
+2024-01-25 10:09:48,262 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/63b6835f-fdc6-4955-b7c0-afa7176eb11f-191 into controller LaunchURL
+2024-01-25 10:09:48,670 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/baseline/1/393a01a0-b656-48cc-a4c7-47ea3ac82f86-192 into controller LaunchURL
+2024-01-25 10:09:49,075 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/newtab/1/6a30bbf7-8d6b-40b1-9ede-334b2f53c49d-193 into controller LaunchURL
+2024-01-25 10:09:49,478 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/use-counters/1/0310d302-a462-4f88-93b7-183e98061dae-194 into controller LaunchURL
+2024-01-25 10:09:49,884 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/newtab/1/8f158d54-f200-4b47-98b2-468f37770d96-195 into controller LaunchURL
+2024-01-25 10:09:50,291 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/messaging-system/1/da570eaf-8e30-4060-b340-dd0a4b16dcf3-196 into controller LaunchURL
+2024-01-25 10:09:50,698 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/baseline/1/1d630c9e-2f01-4433-8693-2d5f76e87577-197 into controller LaunchURL
+2024-01-25 10:09:51,122 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/events/1/156c327d-5771-47c6-b4c9-48e3f90d6128-198 into controller LaunchURL
+2024-01-25 10:09:51,989 INFO o.a.j.p.h.p.ProxyControl: [59844]  Creating entry shavar.services.mozilla.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:09:51,994 INFO o.a.j.p.h.p.Proxy: [59821]  KeyStore for SSL loaded OK and put host 'contile.services.mozilla.com' in map with key (contile.services.mozilla.com)
+2024-01-25 10:09:52,362 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/v1/tiles-199 into controller LaunchURL
+2024-01-25 10:09:52,978 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F4f6088e8-788b-4622-9360-64358d945668.jpeg-202 into controller LaunchURL
+2024-01-25 10:09:52,985 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fbe50e388-c76c-41ec-8980-41b6aff2a192.jpeg-203 into controller LaunchURL
+2024-01-25 10:09:52,991 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fd1e53ba0-a124-479b-90c3-2b94f73f3553.jpeg-204 into controller LaunchURL
+2024-01-25 10:09:53,004 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F6e235a5c-b0c4-4939-b618-46f5f29475db.jpeg-205 into controller LaunchURL
+2024-01-25 10:09:53,013 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F8c0ec924-564a-4ddf-bd7c-b8bc39e1d7e7.jpeg-206 into controller LaunchURL
+2024-01-25 10:09:53,181 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/contextual-services/topsites-impression/1/b4a0ca00-8b0f-414f-914e-1e8d45a68382-200 into controller LaunchURL
+2024-01-25 10:09:53,215 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/contextual-services/topsites-impression/1/dcb9c6e4-3bc9-4dd3-b2a4-cf851d4b111a-201 into controller LaunchURL
+2024-01-25 10:09:53,416 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/top-sites/1/ce24dcf9-b4cb-4d5c-973a-69877b4f8b87-207 into controller LaunchURL
+2024-01-25 10:09:53,993 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/firefox-desktop/top-sites/1/7e9f57db-c8e7-4a8d-af01-f23293ad5f90-208 into controller LaunchURL
+2024-01-25 10:09:54,819 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/296x148/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F8b855bc4-287b-4049-a4fe-7dfbd297d399.jpeg-209 into controller LaunchURL
+2024-01-25 10:09:57,179 INFO o.a.j.p.h.p.ProxyControl: [59894]  Creating entry contile-images.services.mozilla.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:09:57,184 INFO o.a.j.p.h.p.Proxy: [59844]  KeyStore for SSL loaded OK and put host 'shavar.services.mozilla.com' in map with key (shavar.services.mozilla.com)
+2024-01-25 10:09:58,283 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/downloads?client=navclient-auto-ffox&appver=121.0&pver=2.2-210 into controller LaunchURL
+2024-01-25 10:09:59,722 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/pdf_to_word-211 into controller LaunchURL
+2024-01-25 10:09:59,889 WARN o.a.j.p.h.p.Proxy: [59924]  Problem with SSL certificate for url  for 'www.ilovepdf.com'? Ensure browser is set to accept the JMeter proxy cert: java.net.SocketException: Software caused connection abort: recv failed
+2024-01-25 10:09:59,904 WARN o.a.j.p.h.p.Proxy: [59925]  Problem with SSL certificate for url  for 'www.ilovepdf.com'? Ensure browser is set to accept the JMeter proxy cert: java.net.SocketException: Software caused connection abort: recv failed
+2024-01-25 10:09:59,910 WARN o.a.j.p.h.p.Proxy: [59926]  Problem with SSL certificate for url  for 'www.ilovepdf.com'? Ensure browser is set to accept the JMeter proxy cert: java.net.SocketException: Software caused connection abort: recv failed
+2024-01-25 10:10:00,136 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/activity-stream/impression-stats/1/36af1b70-2c39-42dd-abf0-921a09de75e9-213 into controller LaunchURL
+2024-01-25 10:10:00,208 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/activity-stream/impression-stats/1/c6f3f865-c8f2-4994-89ae-89c0f8a3a62e-212 into controller LaunchURL
+2024-01-25 10:10:00,275 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/submit/activity-stream/sessions/1/70bcc5fc-981e-47ad-b926-a2616a14f75c-214 into controller LaunchURL
+2024-01-25 10:10:00,544 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/-215 into controller LaunchURL
+2024-01-25 10:10:01,356 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/g/collect?v=2&tid=G-44KQ8HETWT&gtm=45je41m0v9126785653&_p=1706157599814&gcs=G111&gcd=11t1t1l1l5&dma=0&tag_exp=71847096&cid=2082415729.1706157370&ul=en-us&sr=1366x768&_s=1&sid=1706157369&sct=1&seg=1&dl=https%3A%2F%2Fwww.ilovepdf.com%2Fpdf_to_word&dt=PDF%20to%20WORD%20%7C%20Convert%20PDF%20to%20Word%20online%20for%20free&en=page_view&_ee=1&tfd=941-216 into controller LaunchURL
+2024-01-25 10:10:01,762 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/gampad/ads-217 into controller LaunchURL
+2024-01-25 10:10:02,792 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/pagead/adview-218 into controller LaunchURL
+2024-01-25 10:10:02,844 INFO o.a.j.p.h.p.ProxyControl: [59945]  Creating entry www.google.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:10:02,849 INFO o.a.j.p.h.p.Proxy: [59894]  KeyStore for SSL loaded OK and put host 'contile-images.services.mozilla.com' in map with key (contile-images.services.mozilla.com)
+2024-01-25 10:10:03,006 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/g/collect?v=2&tid=G-44KQ8HETWT&gtm=45je41m0v9126785653&_p=1706157599814&gcs=G111&gcd=11t1t1l1l5&dma=0&tag_exp=71847096&cid=2082415729.1706157370&ul=en-us&sr=1366x768&_eu=AEA&_s=2&sid=1706157369&sct=1&seg=1&dl=https%3A%2F%2Fwww.ilovepdf.com%2Fpdf_to_word&dt=PDF%20to%20WORD%20%7C%20Convert%20PDF%20to%20Word%20online%20for%20free&en=scroll&epn.percent_scrolled=90&_et=5&tfd=2760-219 into controller LaunchURL
+2024-01-25 10:10:03,017 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/Lbtwp8lOwiYh9vxiwPInJ_U7mlWtWHU5_yHpcziM01U.10324.jpg-220 into controller LaunchURL
+2024-01-25 10:10:03,029 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/obgoOYObjIFea_bXuT6L4LbBJ8j425AD87S1HMD3BWg.9991.jpg-221 into controller LaunchURL
+2024-01-25 10:10:03,616 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/pcs/activeview-222 into controller LaunchURL
+2024-01-25 10:10:07,814 INFO o.a.j.p.h.p.ProxyControl: [59935]  Creating entry fc1e999cf9ba3dceb881494baead3f86.safeframe.googlesyndication.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:10:07,818 INFO o.a.j.p.h.p.Proxy: [59945]  KeyStore for SSL loaded OK and put host 'www.google.com' in map with key (www.google.com)
+2024-01-25 10:10:08,104 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/g/collect?v=2&tid=G-44KQ8HETWT&gtm=45je41m0v9126785653&_p=1706157599814&gcs=G111&gcd=11t1t1l1l5&dma=0&tag_exp=71847096&cid=2082415729.1706157370&ul=en-us&sr=1366x768&_eu=AEI&_s=3&sid=1706157369&sct=1&seg=1&dl=https%3A%2F%2Fwww.ilovepdf.com%2Fpdf_to_word&dt=PDF%20to%20WORD%20%7C%20Convert%20PDF%20to%20Word%20online%20for%20free&en=ad_impression&ep.query_id=CKvF9LPc94MDFaQftwAd2XgAqw&_et=1812&tfd=7766-223 into controller LaunchURL
+2024-01-25 10:10:08,305 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/pagead/drt/ui-224 into controller LaunchURL
+2024-01-25 10:10:12,427 INFO o.a.j.p.h.p.ProxyControl: [59957]  Creating entry googleads.g.doubleclick.net in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:10:12,432 INFO o.a.j.p.h.p.Proxy: [59935]  KeyStore for SSL loaded OK and put host 'fc1e999cf9ba3dceb881494baead3f86.safeframe.googlesyndication.com' in map with key (fc1e999cf9ba3dceb881494baead3f86.safeframe.googlesyndication.com)
+2024-01-25 10:10:12,981 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/safeframe/1-0-40/html/container.html-225 into controller LaunchURL
+2024-01-25 10:10:13,595 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/getconfig/sodar-226 into controller LaunchURL
+2024-01-25 10:10:14,201 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/sodar/sodar2.js-227 into controller LaunchURL
+2024-01-25 10:10:14,402 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/sodar/sodar2/225/runner.html-229 into controller LaunchURL
+2024-01-25 10:10:14,416 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/recaptcha/api2/aframe-228 into controller LaunchURL
+2024-01-25 10:10:14,805 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/bg/IHSjRKKj3q_1Pt3c2sGWHmUCy_Bw5n5yhKh9CWyZSw4.js-230 into controller LaunchURL
+2024-01-25 10:10:15,006 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/pagead/sodar-231 into controller LaunchURL
+2024-01-25 10:10:15,213 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/generate_204-232 into controller LaunchURL
+2024-01-25 10:10:16,221 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/pagead/sodar-233 into controller LaunchURL
+2024-01-25 10:10:17,726 INFO o.a.j.p.h.p.Proxy: [59957]  KeyStore for SSL loaded OK and put host 'googleads.g.doubleclick.net' in map with key (googleads.g.doubleclick.net)
+2024-01-25 10:10:18,258 INFO o.a.j.p.h.p.ProxyControl: Add sample LaunchURL/pagead/drt/si-234 into controller LaunchURL
+2024-01-25 10:10:42,507 INFO o.a.j.p.h.p.ProxyControl: Add sample uploadFiles/canonical.html-235 into controller uploadFiles
+2024-01-25 10:10:42,709 INFO o.a.j.p.h.p.ProxyControl: Add sample uploadFiles/success.txt-236 into controller uploadFiles
+2024-01-25 10:10:42,720 INFO o.a.j.p.h.p.ProxyControl: Add sample uploadFiles/success.txt-237 into controller uploadFiles
+2024-01-25 10:10:44,122 INFO o.a.j.p.h.p.ProxyControl: Add sample uploadFiles/submit/firefox-desktop/newtab/1/96264aef-aa2b-41fe-90d8-376c10a7017e-238 into controller uploadFiles
+2024-01-25 10:10:44,210 INFO o.a.j.p.h.p.ProxyControl: [59990]  Creating entry api60o.ilovepdf.com in C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\bin\proxyserver.jks
+2024-01-25 10:10:48,404 INFO o.a.j.p.h.p.Proxy: [59990]  KeyStore for SSL loaded OK and put host 'api60o.ilovepdf.com' in map with key (api60o.ilovepdf.com)
+2024-01-25 10:10:49,652 INFO o.a.j.p.h.p.ProxyControl: Add sample uploadFiles/status.json-239 into controller uploadFiles
+2024-01-25 10:10:49,685 WARN o.a.j.p.h.p.Proxy: [59992]  Problem with SSL certificate for url  for 'www.ilovepdf.com'? Ensure browser is set to accept the JMeter proxy cert: Remote host terminated the handshake
+2024-01-25 10:10:51,084 INFO o.a.j.p.h.p.ProxyControl: Add sample uploadFiles/v1/upload-240 into controller uploadFiles
+2024-01-25 10:10:54,330 INFO o.a.j.p.h.p.ProxyControl: Add sample uploadFiles/v1/upload-241 into controller uploadFiles
+2024-01-25 10:10:58,878 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2024-01-25 10:11:26,933 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-ffw-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,934 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-functions-2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,935 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,936 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,936 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,937 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-fifo-0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,939 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-composite-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,939 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,940 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,941 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,959 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-ffw-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,960 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-functions-2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,960 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,961 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,961 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,962 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-fifo-0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,965 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-composite-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,965 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,966 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:26,967 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:11:45,758 INFO o.a.j.s.FileServer: Set new base='D:\PerformanceTestingScripts'
+2024-01-25 10:11:57,862 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-01-25 10:11:57,862 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-01-25 10:11:57,872 WARN o.a.j.e.u.FunctionParser: Probably an invalid function string: ?????~?tOT???ySV??e???&g???,??7????E?B1[????`?	?^??6???o?p 	??|4;?`?W???2??]?bo??? ????Id$??%MC?ol?s?)?RG?1??8Nm!k{??????	i2??3P??t??d??F?f?."(???H:????g?:G??3??ZcX??|?p????  
+2024-01-25 10:11:57,886 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-01-25 10:11:58,084 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : fileuploadcase
+2024-01-25 10:11:58,084 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group fileuploadcase.
+2024-01-25 10:11:58,084 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-01-25 10:11:58,085 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-01-25 10:11:58,098 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-01-25 10:11:58,098 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-01-25 10:11:58,107 INFO o.a.j.t.JMeterThread: Thread started: fileuploadcase 1-1
+2024-01-25 10:12:13,561 INFO o.a.j.s.FileServer: Stored: Perfromance Testing Exercise.pdf
+2024-01-25 10:12:16,027 INFO o.a.j.t.JMeterThread: Thread is done: fileuploadcase 1-1
+2024-01-25 10:12:16,028 INFO o.a.j.t.JMeterThread: Thread finished: fileuploadcase 1-1
+2024-01-25 10:12:16,034 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-01-25 10:12:16,035 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-01-25 10:12:59,357 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-ffw-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:12:59,359 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-functions-2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:12:59,360 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:12:59,361 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:12:59,362 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:12:59,362 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-fifo-0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:12:59,364 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-composite-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:12:59,365 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:12:59,366 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:12:59,366 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:14,820 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-ffw-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:14,821 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-functions-2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:14,823 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:14,826 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:14,827 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:14,827 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-fifo-0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:14,829 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-composite-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:14,829 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:14,830 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:14,831 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:22,519 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-ffw-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:22,519 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-functions-2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:22,521 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:22,522 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:22,522 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:22,522 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-fifo-0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:22,525 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-graphs-composite-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:22,525 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:22,527 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:22,527 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\sakthignanavel.a\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-01-25 10:13:32,739 WARN o.a.j.p.h.v.RequestViewHTTP: Error decoding query, maybe your request parameters should be encoded:?      ??W?r?(~?m???klw?G?? @6ST@?4?w??k?????L?s??wn?)?]5?v.[>eA????B>6?lt??HN
+?cD??8_???(y???%??L[??hY/*J?^??,Z}E??q???à
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: "??"
+	at java.net.URLDecoder.decode(Unknown Source) ~[?:1.8.0_291]
+	at org.apache.jmeter.protocol.http.visualizers.RequestViewHTTP.decodeQuery(RequestViewHTTP.java:341) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.visualizers.RequestViewHTTP.getQueryMap(RequestViewHTTP.java:296) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.visualizers.RequestViewHTTP.setSamplerResult(RequestViewHTTP.java:219) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.visualizers.RequestPanel.setSamplerResult(RequestPanel.java:101) [ApacheJMeter_components.jar:5.6.2]
+	at org.apache.jmeter.visualizers.SamplerResultTab.setupTabPane(SamplerResultTab.java:256) [ApacheJMeter_components.jar:5.6.2]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.valueChanged(ViewResultsFullVisualizer.java:395) [ApacheJMeter_components.jar:5.6.2]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.valueChanged(ViewResultsFullVisualizer.java:373) [ApacheJMeter_components.jar:5.6.2]
+	at javax.swing.JTree.fireValueChanged(Unknown Source) [?:1.8.0_291]
+	at javax.swing.JTree$TreeSelectionRedirector.valueChanged(Unknown Source) [?:1.8.0_291]
+	at javax.swing.tree.DefaultTreeSelectionModel.fireValueChanged(Unknown Source) [?:1.8.0_291]
+	at javax.swing.tree.DefaultTreeSelectionModel.notifyPathChange(Unknown Source) [?:1.8.0_291]
+	at javax.swing.tree.DefaultTreeSelectionModel.setSelectionPaths(Unknown Source) [?:1.8.0_291]
+	at javax.swing.tree.DefaultTreeSelectionModel.setSelectionPath(Unknown Source) [?:1.8.0_291]
+	at javax.swing.JTree.setSelectionPath(Unknown Source) [?:1.8.0_291]
+	at javax.swing.plaf.basic.BasicTreeUI.selectPathForEvent(Unknown Source) [?:1.8.0_291]
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.handleSelection(Unknown Source) [?:1.8.0_291]
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.mousePressed(Unknown Source) [?:1.8.0_291]
+	at java.awt.AWTEventMulticaster.mousePressed(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.processMouseEvent(Unknown Source) [?:1.8.0_291]
+	at javax.swing.JComponent.processMouseEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.processEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Container.processEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Window.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_291]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_291]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_291]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_291]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_291]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_291]
+2024-01-25 10:13:32,740 WARN o.a.j.p.h.v.RequestViewHTTP: Error decoding query, maybe your request parameters should be encoded:D?(4?/???k?p????2o#K??g???`%???>?P??c??M?@?,?"U?t?(?
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: "??"
+	at java.net.URLDecoder.decode(Unknown Source) ~[?:1.8.0_291]
+	at org.apache.jmeter.protocol.http.visualizers.RequestViewHTTP.decodeQuery(RequestViewHTTP.java:341) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.visualizers.RequestViewHTTP.getQueryMap(RequestViewHTTP.java:296) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.visualizers.RequestViewHTTP.setSamplerResult(RequestViewHTTP.java:219) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.visualizers.RequestPanel.setSamplerResult(RequestPanel.java:101) [ApacheJMeter_components.jar:5.6.2]
+	at org.apache.jmeter.visualizers.SamplerResultTab.setupTabPane(SamplerResultTab.java:256) [ApacheJMeter_components.jar:5.6.2]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.valueChanged(ViewResultsFullVisualizer.java:395) [ApacheJMeter_components.jar:5.6.2]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.valueChanged(ViewResultsFullVisualizer.java:373) [ApacheJMeter_components.jar:5.6.2]
+	at javax.swing.JTree.fireValueChanged(Unknown Source) [?:1.8.0_291]
+	at javax.swing.JTree$TreeSelectionRedirector.valueChanged(Unknown Source) [?:1.8.0_291]
+	at javax.swing.tree.DefaultTreeSelectionModel.fireValueChanged(Unknown Source) [?:1.8.0_291]
+	at javax.swing.tree.DefaultTreeSelectionModel.notifyPathChange(Unknown Source) [?:1.8.0_291]
+	at javax.swing.tree.DefaultTreeSelectionModel.setSelectionPaths(Unknown Source) [?:1.8.0_291]
+	at javax.swing.tree.DefaultTreeSelectionModel.setSelectionPath(Unknown Source) [?:1.8.0_291]
+	at javax.swing.JTree.setSelectionPath(Unknown Source) [?:1.8.0_291]
+	at javax.swing.plaf.basic.BasicTreeUI.selectPathForEvent(Unknown Source) [?:1.8.0_291]
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.handleSelection(Unknown Source) [?:1.8.0_291]
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.mousePressed(Unknown Source) [?:1.8.0_291]
+	at java.awt.AWTEventMulticaster.mousePressed(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.processMouseEvent(Unknown Source) [?:1.8.0_291]
+	at javax.swing.JComponent.processMouseEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.processEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Container.processEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Window.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_291]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_291]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_291]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_291]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_291]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_291]
+2024-01-25 10:13:32,741 WARN o.a.j.p.h.v.RequestViewHTTP: Error decoding query, maybe your request parameters should be encoded:\Wyj??%???7v?????(?vh????A???lQ'j?
+R???F?"D?c?????}??5v?)??Jt???>?07(9??Y??k???O?8kX???S????f{{|L0?UA
+>m?O????I
+????/	????W#?0?)??+!???(M?;????qTSEQ?5?%oy?%??Ga#???7.,|
+v??i??4	{3??<?-??M?????7????5?O??)?/??m6?pon3?me??Gx??????@?A?<?D???~?-4?6???M???F?f??V???9??????3????
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: "??"
+	at java.net.URLDecoder.decode(Unknown Source) ~[?:1.8.0_291]
+	at org.apache.jmeter.protocol.http.visualizers.RequestViewHTTP.decodeQuery(RequestViewHTTP.java:341) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.visualizers.RequestViewHTTP.getQueryMap(RequestViewHTTP.java:312) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.visualizers.RequestViewHTTP.setSamplerResult(RequestViewHTTP.java:219) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.visualizers.RequestPanel.setSamplerResult(RequestPanel.java:101) [ApacheJMeter_components.jar:5.6.2]
+	at org.apache.jmeter.visualizers.SamplerResultTab.setupTabPane(SamplerResultTab.java:256) [ApacheJMeter_components.jar:5.6.2]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.valueChanged(ViewResultsFullVisualizer.java:395) [ApacheJMeter_components.jar:5.6.2]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.valueChanged(ViewResultsFullVisualizer.java:373) [ApacheJMeter_components.jar:5.6.2]
+	at javax.swing.JTree.fireValueChanged(Unknown Source) [?:1.8.0_291]
+	at javax.swing.JTree$TreeSelectionRedirector.valueChanged(Unknown Source) [?:1.8.0_291]
+	at javax.swing.tree.DefaultTreeSelectionModel.fireValueChanged(Unknown Source) [?:1.8.0_291]
+	at javax.swing.tree.DefaultTreeSelectionModel.notifyPathChange(Unknown Source) [?:1.8.0_291]
+	at javax.swing.tree.DefaultTreeSelectionModel.setSelectionPaths(Unknown Source) [?:1.8.0_291]
+	at javax.swing.tree.DefaultTreeSelectionModel.setSelectionPath(Unknown Source) [?:1.8.0_291]
+	at javax.swing.JTree.setSelectionPath(Unknown Source) [?:1.8.0_291]
+	at javax.swing.plaf.basic.BasicTreeUI.selectPathForEvent(Unknown Source) [?:1.8.0_291]
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.handleSelection(Unknown Source) [?:1.8.0_291]
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.mousePressed(Unknown Source) [?:1.8.0_291]
+	at java.awt.AWTEventMulticaster.mousePressed(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.processMouseEvent(Unknown Source) [?:1.8.0_291]
+	at javax.swing.JComponent.processMouseEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.processEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Container.processEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Window.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_291]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_291]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_291]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_291]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_291]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_291]
+2024-01-25 10:13:32,742 WARN o.a.j.p.h.v.RequestViewHTTP: Error decoding query, maybe your request parameters should be encoded:?5xs?g???Eu??4_??e?j
+???-s???l!Y?t??Z?N??F/?+???Y?? ?4]w??D??E?r?z	??[????9?e?,?	?rg??# ?~?ç?R6?e BS:??*?	???^\	?I????$}??P?^??: O<?K?@????~r?r???t??i)?hj?+M$E
+SXLB ,?0jY?YW??_???w????????????????^????5?? ???`mG???(??w??)y???:?.|pV????s???e????H??y?sJ*????~	??R	 ??E[S?f??H[?
+r????5%?C??UY_3?u??w??Pps?>??+??$??dT-?UG]?H^???{?]?d#~L???K<#?|??0?e??????@]%?????oH?@?  
+java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: "?C"
+	at java.net.URLDecoder.decode(Unknown Source) ~[?:1.8.0_291]
+	at org.apache.jmeter.protocol.http.visualizers.RequestViewHTTP.decodeQuery(RequestViewHTTP.java:341) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.visualizers.RequestViewHTTP.getQueryMap(RequestViewHTTP.java:312) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.protocol.http.visualizers.RequestViewHTTP.setSamplerResult(RequestViewHTTP.java:219) [ApacheJMeter_http.jar:5.6.2]
+	at org.apache.jmeter.visualizers.RequestPanel.setSamplerResult(RequestPanel.java:101) [ApacheJMeter_components.jar:5.6.2]
+	at org.apache.jmeter.visualizers.SamplerResultTab.setupTabPane(SamplerResultTab.java:256) [ApacheJMeter_components.jar:5.6.2]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.valueChanged(ViewResultsFullVisualizer.java:395) [ApacheJMeter_components.jar:5.6.2]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.valueChanged(ViewResultsFullVisualizer.java:373) [ApacheJMeter_components.jar:5.6.2]
+	at javax.swing.JTree.fireValueChanged(Unknown Source) [?:1.8.0_291]
+	at javax.swing.JTree$TreeSelectionRedirector.valueChanged(Unknown Source) [?:1.8.0_291]
+	at javax.swing.tree.DefaultTreeSelectionModel.fireValueChanged(Unknown Source) [?:1.8.0_291]
+	at javax.swing.tree.DefaultTreeSelectionModel.notifyPathChange(Unknown Source) [?:1.8.0_291]
+	at javax.swing.tree.DefaultTreeSelectionModel.setSelectionPaths(Unknown Source) [?:1.8.0_291]
+	at javax.swing.tree.DefaultTreeSelectionModel.setSelectionPath(Unknown Source) [?:1.8.0_291]
+	at javax.swing.JTree.setSelectionPath(Unknown Source) [?:1.8.0_291]
+	at javax.swing.plaf.basic.BasicTreeUI.selectPathForEvent(Unknown Source) [?:1.8.0_291]
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.handleSelection(Unknown Source) [?:1.8.0_291]
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.mousePressed(Unknown Source) [?:1.8.0_291]
+	at java.awt.AWTEventMulticaster.mousePressed(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.processMouseEvent(Unknown Source) [?:1.8.0_291]
+	at javax.swing.JComponent.processMouseEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.processEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Container.processEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Window.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.Component.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_291]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_291]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_291]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue$4.run(Unknown Source) [?:1.8.0_291]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_291]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_291]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_291]

@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="2821" it="0" lt="2055" ct="1704" ts="1705488702561" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-1" dt="text" by="80501" sby="249" ng="1" na="1">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="2060" it="0" lt="2055" ct="1704" ts="1705488702561" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-1" dt="text" by="811" sby="124" ng="1" na="1">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="756" it="0" lt="399" ct="0" ts="1705488704626" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-1" dt="text" by="79690" sby="125" ng="1" na="1">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="1316" it="0" lt="631" ct="286" ts="1705488708383" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-2" dt="text" by="80493" sby="249" ng="2" na="2">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="631" it="0" lt="631" ct="286" ts="1705488708383" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-2" dt="text" by="817" sby="124" ng="2" na="2">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="685" it="0" lt="411" ct="0" ts="1705488709014" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-2" dt="text" by="79676" sby="125" ng="2" na="2">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="1161" it="0" lt="550" ct="278" ts="1705488714382" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-3" dt="text" by="80497" sby="249" ng="3" na="3">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="550" it="0" lt="550" ct="278" ts="1705488714382" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-3" dt="text" by="817" sby="124" ng="3" na="3">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="611" it="0" lt="330" ct="0" ts="1705488714932" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-3" dt="text" by="79680" sby="125" ng="3" na="3">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="1347" it="0" lt="632" ct="284" ts="1705488720371" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-4" dt="text" by="80507" sby="249" ng="4" na="4">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="632" it="0" lt="632" ct="284" ts="1705488720371" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-4" dt="text" by="821" sby="124" ng="4" na="4">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="714" it="0" lt="298" ct="0" ts="1705488721004" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-4" dt="text" by="79686" sby="125" ng="4" na="4">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="1729" it="0" lt="878" ct="275" ts="1705488726365" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-5" dt="text" by="80513" sby="249" ng="5" na="5">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="878" it="0" lt="878" ct="275" ts="1705488726365" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-5" dt="text" by="815" sby="124" ng="5" na="5">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="851" it="0" lt="529" ct="0" ts="1705488727243" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-5" dt="text" by="79698" sby="125" ng="5" na="5">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="3481" it="0" lt="2247" ct="280" ts="1705488732368" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-6" dt="text" by="80499" sby="249" ng="6" na="6">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="2247" it="0" lt="2247" ct="280" ts="1705488732368" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-6" dt="text" by="817" sby="124" ng="6" na="6">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="1232" it="0" lt="926" ct="0" ts="1705488734617" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-6" dt="text" by="79682" sby="125" ng="6" na="6">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="2390" it="0" lt="639" ct="298" ts="1705488738378" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-7" dt="text" by="80497" sby="249" ng="7" na="7">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="639" it="0" lt="639" ct="298" ts="1705488738378" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-7" dt="text" by="817" sby="124" ng="7" na="7">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="1751" it="0" lt="1440" ct="0" ts="1705488739017" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-7" dt="text" by="79680" sby="125" ng="7" na="7">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="1345" it="0" lt="550" ct="286" ts="1705488744367" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-8" dt="text" by="80515" sby="249" ng="8" na="8">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="550" it="0" lt="550" ct="286" ts="1705488744367" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-8" dt="text" by="825" sby="124" ng="8" na="8">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="795" it="0" lt="347" ct="0" ts="1705488744917" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-8" dt="text" by="79690" sby="125" ng="8" na="8">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="2369" it="0" lt="1445" ct="292" ts="1705488750373" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-9" dt="text" by="80528" sby="249" ng="9" na="9">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="1445" it="0" lt="1445" ct="292" ts="1705488750373" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-9" dt="text" by="819" sby="124" ng="9" na="9">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="923" it="0" lt="619" ct="0" ts="1705488751819" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-9" dt="text" by="79709" sby="125" ng="9" na="9">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="1703" it="0" lt="981" ct="266" ts="1705488756367" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-10" dt="text" by="80493" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="981" it="0" lt="981" ct="266" ts="1705488756367" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-10" dt="text" by="813" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="722" it="0" lt="306" ct="0" ts="1705488757348" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-10" dt="text" by="79680" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="732" it="0" lt="299" ct="0" ts="1705488758073" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-3" dt="text" by="184934" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="299" it="0" lt="299" ct="0" ts="1705488758073" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-3" dt="text" by="869" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="432" it="0" lt="282" ct="0" ts="1705488758373" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-3" dt="text" by="184065" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="738" it="0" lt="298" ct="0" ts="1705488758073" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-1" dt="text" by="184931" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="299" it="0" lt="298" ct="0" ts="1705488758073" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-1" dt="text" by="869" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="439" it="0" lt="283" ct="0" ts="1705488758372" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-1" dt="text" by="184062" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="738" it="0" lt="298" ct="0" ts="1705488758074" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-6" dt="text" by="184920" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="298" it="0" lt="298" ct="0" ts="1705488758074" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-6" dt="text" by="865" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="440" it="0" lt="283" ct="0" ts="1705488758372" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-6" dt="text" by="184055" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="743" it="0" lt="298" ct="0" ts="1705488758073" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-2" dt="text" by="184940" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="298" it="0" lt="298" ct="0" ts="1705488758073" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-2" dt="text" by="869" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="444" it="0" lt="306" ct="0" ts="1705488758372" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-2" dt="text" by="184071" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="746" it="0" lt="298" ct="0" ts="1705488758073" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-4" dt="text" by="184937" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="298" it="0" lt="298" ct="0" ts="1705488758073" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-4" dt="text" by="867" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="446" it="0" lt="286" ct="0" ts="1705488758373" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-4" dt="text" by="184070" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="746" it="0" lt="299" ct="0" ts="1705488758074" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-7" dt="text" by="184934" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="300" it="0" lt="299" ct="0" ts="1705488758074" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-7" dt="text" by="873" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="446" it="0" lt="284" ct="0" ts="1705488758374" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-7" dt="text" by="184061" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="749" it="0" lt="297" ct="0" ts="1705488758074" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-5" dt="text" by="184922" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="297" it="0" lt="297" ct="0" ts="1705488758074" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-5" dt="text" by="871" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="451" it="0" lt="283" ct="0" ts="1705488758372" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-5" dt="text" by="184051" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="756" it="0" lt="297" ct="0" ts="1705488758074" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-9" dt="text" by="184936" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="297" it="0" lt="297" ct="0" ts="1705488758074" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-9" dt="text" by="869" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="458" it="0" lt="284" ct="0" ts="1705488758372" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-9" dt="text" by="184067" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="889" it="0" lt="301" ct="0" ts="1705488758072" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-10" dt="text" by="184931" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="301" it="0" lt="301" ct="0" ts="1705488758072" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-10" dt="text" by="869" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="587" it="0" lt="282" ct="0" ts="1705488758374" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-10" dt="text" by="184062" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="896" it="0" lt="297" ct="0" ts="1705488758074" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-8" dt="text" by="184931" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="297" it="0" lt="297" ct="0" ts="1705488758074" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-8" dt="text" by="863" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="598" it="0" lt="284" ct="0" ts="1705488758372" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-8" dt="text" by="184068" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="965" it="0" lt="326" ct="0" ts="1705488758972" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-8" dt="text" by="537239" sby="255" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="326" it="0" lt="326" ct="0" ts="1705488758972" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-8" dt="text" by="822" sby="127" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="638" it="0" lt="305" ct="0" ts="1705488759299" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-8" dt="text" by="536417" sby="128" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1003" it="0" lt="326" ct="0" ts="1705488758972" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-2" dt="text" by="537255" sby="255" ng="9" na="9">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="326" it="0" lt="326" ct="0" ts="1705488758972" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-2" dt="text" by="816" sby="127" ng="9" na="9">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="676" it="0" lt="314" ct="0" ts="1705488759299" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-2" dt="text" by="536439" sby="128" ng="9" na="9">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1009" it="0" lt="327" ct="0" ts="1705488758972" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-6" dt="text" by="537239" sby="255" ng="8" na="8">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="327" it="0" lt="327" ct="0" ts="1705488758972" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-6" dt="text" by="820" sby="127" ng="8" na="8">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="682" it="0" lt="305" ct="0" ts="1705488759299" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-6" dt="text" by="536419" sby="128" ng="8" na="8">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1013" it="0" lt="325" ct="0" ts="1705488758973" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-10" dt="text" by="537237" sby="255" ng="7" na="7">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="325" it="0" lt="325" ct="0" ts="1705488758973" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-10" dt="text" by="816" sby="127" ng="7" na="7">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="686" it="0" lt="305" ct="0" ts="1705488759300" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-10" dt="text" by="536421" sby="128" ng="7" na="7">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1014" it="0" lt="327" ct="0" ts="1705488758972" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-4" dt="text" by="537235" sby="255" ng="7" na="7">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="327" it="0" lt="327" ct="0" ts="1705488758972" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-4" dt="text" by="820" sby="127" ng="7" na="7">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="687" it="0" lt="305" ct="0" ts="1705488759299" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-4" dt="text" by="536415" sby="128" ng="7" na="7">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1015" it="0" lt="325" ct="0" ts="1705488758973" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-5" dt="text" by="537234" sby="255" ng="7" na="7">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="325" it="0" lt="325" ct="0" ts="1705488758973" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-5" dt="text" by="818" sby="127" ng="7" na="7">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="689" it="0" lt="306" ct="0" ts="1705488759299" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-5" dt="text" by="536416" sby="128" ng="7" na="7">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1042" it="0" lt="326" ct="0" ts="1705488758973" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-1" dt="text" by="537239" sby="255" ng="4" na="4">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="326" it="0" lt="326" ct="0" ts="1705488758973" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-1" dt="text" by="818" sby="127" ng="4" na="4">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="716" it="0" lt="308" ct="0" ts="1705488759299" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-1" dt="text" by="536421" sby="128" ng="4" na="4">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1044" it="0" lt="326" ct="0" ts="1705488758972" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-3" dt="text" by="537245" sby="255" ng="4" na="4">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="326" it="0" lt="326" ct="0" ts="1705488758972" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-3" dt="text" by="820" sby="127" ng="4" na="4">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="717" it="0" lt="306" ct="0" ts="1705488759299" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-3" dt="text" by="536425" sby="128" ng="4" na="4">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1049" it="0" lt="325" ct="0" ts="1705488758973" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-9" dt="text" by="537235" sby="255" ng="2" na="2">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="325" it="0" lt="325" ct="0" ts="1705488758973" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-9" dt="text" by="818" sby="127" ng="2" na="2">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="723" it="0" lt="306" ct="0" ts="1705488759299" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-9" dt="text" by="536417" sby="128" ng="2" na="2">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1362" it="0" lt="688" ct="0" ts="1705488758972" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-7" dt="text" by="537239" sby="255" ng="1" na="1">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="688" it="0" lt="688" ct="0" ts="1705488758972" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-7" dt="text" by="818" sby="127" ng="1" na="1">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="673" it="0" lt="284" ct="0" ts="1705488759661" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-7" dt="text" by="536421" sby="128" ng="1" na="1">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+
+<httpSample t="3128" it="0" lt="2407" ct="1911" ts="1705563765779" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-1" dt="text" by="80495" sby="249" ng="1" na="1">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="2411" it="0" lt="2407" ct="1911" ts="1705563765779" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-1" dt="text" by="813" sby="124" ng="1" na="1">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="714" it="0" lt="396" ct="0" ts="1705563768193" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-1" dt="text" by="79682" sby="125" ng="1" na="1">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="1634" it="0" lt="842" ct="560" ts="1705563771616" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-2" dt="text" by="80499" sby="249" ng="2" na="2">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="842" it="0" lt="842" ct="560" ts="1705563771616" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-2" dt="text" by="819" sby="124" ng="2" na="2">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="791" it="0" lt="530" ct="0" ts="1705563772459" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-2" dt="text" by="79680" sby="125" ng="2" na="2">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="1636" it="0" lt="910" ct="608" ts="1705563777603" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-3" dt="text" by="80495" sby="249" ng="3" na="3">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="910" it="0" lt="910" ct="608" ts="1705563777603" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-3" dt="text" by="815" sby="124" ng="3" na="3">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="726" it="0" lt="518" ct="0" ts="1705563778513" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-3" dt="text" by="79680" sby="125" ng="3" na="3">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="1681" it="0" lt="958" ct="548" ts="1705563783602" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-4" dt="text" by="80501" sby="249" ng="4" na="4">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="958" it="0" lt="958" ct="548" ts="1705563783602" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-4" dt="text" by="809" sby="124" ng="4" na="4">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="723" it="0" lt="410" ct="0" ts="1705563784560" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-4" dt="text" by="79692" sby="125" ng="4" na="4">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="1547" it="0" lt="883" ct="585" ts="1705563789605" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-5" dt="text" by="80505" sby="249" ng="5" na="5">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="883" it="0" lt="883" ct="585" ts="1705563789605" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-5" dt="text" by="813" sby="124" ng="5" na="5">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="664" it="0" lt="420" ct="0" ts="1705563790488" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-5" dt="text" by="79692" sby="125" ng="5" na="5">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="1592" it="0" lt="933" ct="630" ts="1705563795604" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-6" dt="text" by="80505" sby="249" ng="6" na="6">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="933" it="0" lt="933" ct="630" ts="1705563795604" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-6" dt="text" by="819" sby="124" ng="6" na="6">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="659" it="0" lt="414" ct="0" ts="1705563796537" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-6" dt="text" by="79686" sby="125" ng="6" na="6">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="1544" it="0" lt="877" ct="572" ts="1705563801601" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-7" dt="text" by="80502" sby="249" ng="7" na="7">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="877" it="0" lt="877" ct="572" ts="1705563801601" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-7" dt="text" by="815" sby="124" ng="7" na="7">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="666" it="0" lt="411" ct="0" ts="1705563802479" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-7" dt="text" by="79687" sby="125" ng="7" na="7">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="1932" it="0" lt="1006" ct="597" ts="1705563807618" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-8" dt="text" by="80499" sby="249" ng="8" na="8">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="1006" it="0" lt="1006" ct="597" ts="1705563807618" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-8" dt="text" by="815" sby="124" ng="8" na="8">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="926" it="0" lt="615" ct="0" ts="1705563808624" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-8" dt="text" by="79684" sby="125" ng="8" na="8">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="1974" it="0" lt="1047" ct="638" ts="1705563813618" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-9" dt="text" by="80495" sby="249" ng="9" na="9">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="1047" it="0" lt="1047" ct="638" ts="1705563813618" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-9" dt="text" by="819" sby="124" ng="9" na="9">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="927" it="0" lt="617" ct="0" ts="1705563814665" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-9" dt="text" by="79676" sby="125" ng="9" na="9">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="1919" it="0" lt="1003" ct="593" ts="1705563819601" s="true" lb="HomePage" rc="200" rm="OK" tn="Testcase2 1-10" dt="text" by="80493" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="1003" it="0" lt="1003" ct="593" ts="1705563819601" s="true" lb="HomePage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-10" dt="text" by="813" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/explore</java.net.URL>
+  </httpSample>
+  <httpSample t="915" it="0" lt="614" ct="0" ts="1705563820605" s="true" lb="HomePage-1" rc="200" rm="OK" tn="Testcase2 1-10" dt="text" by="79680" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/explore/</java.net.URL>
+</httpSample>
+<httpSample t="772" it="0" lt="285" ct="0" ts="1705563821522" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-2" dt="text" by="184844" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="285" it="0" lt="285" ct="0" ts="1705563821522" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-2" dt="text" by="871" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="486" it="0" lt="333" ct="0" ts="1705563821808" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-2" dt="text" by="183973" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="781" it="0" lt="298" ct="0" ts="1705563821521" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-10" dt="text" by="184852" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="298" it="0" lt="298" ct="0" ts="1705563821521" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-10" dt="text" by="879" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="482" it="0" lt="321" ct="0" ts="1705563821820" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-10" dt="text" by="183973" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="791" it="0" lt="310" ct="0" ts="1705563821522" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-4" dt="text" by="184846" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="310" it="0" lt="310" ct="0" ts="1705563821522" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-4" dt="text" by="871" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="481" it="0" lt="311" ct="0" ts="1705563821832" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-4" dt="text" by="183975" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="799" it="0" lt="294" ct="0" ts="1705563821522" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-1" dt="text" by="184842" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="294" it="0" lt="294" ct="0" ts="1705563821522" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-1" dt="text" by="869" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="504" it="0" lt="324" ct="0" ts="1705563821817" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-1" dt="text" by="183973" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="801" it="0" lt="310" ct="0" ts="1705563821522" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-7" dt="text" by="184838" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="310" it="0" lt="310" ct="0" ts="1705563821522" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-7" dt="text" by="867" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="491" it="0" lt="311" ct="0" ts="1705563821832" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-7" dt="text" by="183971" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="805" it="0" lt="314" ct="0" ts="1705563821522" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-3" dt="text" by="184838" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="314" it="0" lt="314" ct="0" ts="1705563821522" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-3" dt="text" by="863" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="490" it="0" lt="308" ct="0" ts="1705563821837" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-3" dt="text" by="183975" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="806" it="0" lt="296" ct="0" ts="1705563821523" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-9" dt="text" by="184838" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="297" it="0" lt="296" ct="0" ts="1705563821523" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-9" dt="text" by="869" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="509" it="0" lt="321" ct="0" ts="1705563821820" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-9" dt="text" by="183969" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="825" it="0" lt="310" ct="0" ts="1705563821522" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-6" dt="text" by="184828" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="310" it="0" lt="310" ct="0" ts="1705563821522" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-6" dt="text" by="867" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="515" it="0" lt="324" ct="0" ts="1705563821832" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-6" dt="text" by="183961" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="871" it="0" lt="296" ct="0" ts="1705563821523" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-8" dt="text" by="184848" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="296" it="0" lt="296" ct="0" ts="1705563821523" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-8" dt="text" by="863" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="574" it="0" lt="321" ct="0" ts="1705563821820" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-8" dt="text" by="183985" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="893" it="0" lt="310" ct="0" ts="1705563821522" s="true" lb="ContestPage" rc="200" rm="OK" tn="Testcase2 1-5" dt="text" by="184840" sby="249" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="310" it="0" lt="310" ct="0" ts="1705563821522" s="true" lb="ContestPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-5" dt="text" by="871" sby="124" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest</java.net.URL>
+  </httpSample>
+  <httpSample t="583" it="0" lt="311" ct="0" ts="1705563821832" s="true" lb="ContestPage-1" rc="200" rm="OK" tn="Testcase2 1-5" dt="text" by="183969" sby="125" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/contest/</java.net.URL>
+</httpSample>
+<httpSample t="1045" it="0" lt="337" ct="0" ts="1705563822419" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-8" dt="text" by="537510" sby="255" ng="10" na="10">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="337" it="0" lt="337" ct="0" ts="1705563822419" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-8" dt="text" by="816" sby="127" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="708" it="0" lt="306" ct="0" ts="1705563822756" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-8" dt="text" by="536694" sby="128" ng="10" na="10">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1055" it="0" lt="336" ct="0" ts="1705563822418" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-3" dt="text" by="537515" sby="255" ng="9" na="9">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="336" it="0" lt="336" ct="0" ts="1705563822418" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-3" dt="text" by="812" sby="127" ng="9" na="9">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="719" it="0" lt="308" ct="0" ts="1705563822754" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-3" dt="text" by="536703" sby="128" ng="9" na="9">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1057" it="0" lt="336" ct="0" ts="1705563822418" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-6" dt="text" by="537522" sby="255" ng="9" na="9">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="336" it="0" lt="336" ct="0" ts="1705563822418" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-6" dt="text" by="814" sby="127" ng="9" na="9">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="721" it="0" lt="308" ct="0" ts="1705563822754" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-6" dt="text" by="536708" sby="128" ng="9" na="9">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1061" it="0" lt="337" ct="0" ts="1705563822417" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-2" dt="text" by="537522" sby="255" ng="7" na="7">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="337" it="0" lt="337" ct="0" ts="1705563822417" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-2" dt="text" by="818" sby="127" ng="7" na="7">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="724" it="0" lt="315" ct="0" ts="1705563822754" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-2" dt="text" by="536704" sby="128" ng="7" na="7">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1064" it="0" lt="336" ct="0" ts="1705563822418" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-4" dt="text" by="537514" sby="255" ng="6" na="6">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="336" it="0" lt="336" ct="0" ts="1705563822418" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-4" dt="text" by="812" sby="127" ng="6" na="6">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="728" it="0" lt="308" ct="0" ts="1705563822754" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-4" dt="text" by="536702" sby="128" ng="6" na="6">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1073" it="0" lt="337" ct="0" ts="1705563822417" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-5" dt="text" by="537509" sby="255" ng="5" na="5">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="337" it="0" lt="337" ct="0" ts="1705563822417" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-5" dt="text" by="812" sby="127" ng="5" na="5">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="736" it="0" lt="312" ct="0" ts="1705563822754" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-5" dt="text" by="536697" sby="128" ng="5" na="5">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1083" it="0" lt="336" ct="0" ts="1705563822418" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-9" dt="text" by="537512" sby="255" ng="4" na="4">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="336" it="0" lt="336" ct="0" ts="1705563822418" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-9" dt="text" by="814" sby="127" ng="4" na="4">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="747" it="0" lt="329" ct="0" ts="1705563822754" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-9" dt="text" by="536698" sby="128" ng="4" na="4">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1152" it="0" lt="383" ct="0" ts="1705563822418" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-7" dt="text" by="537509" sby="255" ng="3" na="3">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="383" it="0" lt="383" ct="0" ts="1705563822418" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-7" dt="text" by="814" sby="127" ng="3" na="3">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="769" it="0" lt="315" ct="0" ts="1705563822801" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-7" dt="text" by="536695" sby="128" ng="3" na="3">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1355" it="0" lt="647" ct="0" ts="1705563822418" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-10" dt="text" by="537526" sby="255" ng="2" na="2">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="647" it="0" lt="647" ct="0" ts="1705563822418" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-10" dt="text" by="818" sby="127" ng="2" na="2">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="708" it="0" lt="297" ct="0" ts="1705563823065" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-10" dt="text" by="536708" sby="128" ng="2" na="2">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+<httpSample t="1770" it="0" lt="861" ct="0" ts="1705563822418" s="true" lb="ProblemsPage" rc="200" rm="OK" tn="Testcase2 1-1" dt="text" by="537518" sby="255" ng="1" na="1">
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="861" it="0" lt="861" ct="0" ts="1705563822418" s="true" lb="ProblemsPage-0" rc="301" rm="Moved Permanently" tn="Testcase2 1-1" dt="text" by="818" sby="127" ng="1" na="1">
+    <java.net.URL>https://leetcode.com/problemset</java.net.URL>
+  </httpSample>
+  <httpSample t="908" it="0" lt="300" ct="0" ts="1705563823280" s="true" lb="ProblemsPage-1" rc="200" rm="OK" tn="Testcase2 1-1" dt="text" by="536700" sby="128" ng="1" na="1">
+    <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://leetcode.com/problemset/</java.net.URL>
+</httpSample>
+
+</testResults>

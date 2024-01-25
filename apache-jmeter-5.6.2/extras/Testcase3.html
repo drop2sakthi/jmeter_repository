@@ -1,0 +1,345 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Load Test Results</title>
+<style type="text/css">
+				body {
+					font:normal 68% verdana,arial,helvetica;
+					color:#000000;
+				}
+				table tr td, table tr th {
+					font-size: 68%;
+				}
+				table.details tr th{
+				    color: #ffffff;
+					font-weight: bold;
+					text-align:center;
+					background:#2674a6;
+					white-space: nowrap;
+				}
+				table.details tr td{
+					background:#eeeee0;
+					white-space: nowrap;
+				}
+				h1 {
+					margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+				}
+				h2 {
+					margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+				}
+				h3 {
+					margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+				}
+				.Failure {
+					font-weight:bold; color:red;
+				}
+
+
+				img
+				{
+				  border-width: 0px;
+				}
+
+				.expand_link
+				{
+				   position=absolute;
+				   right: 0px;
+				   width: 27px;
+				   top: 1px;
+				   height: 27px;
+				}
+
+				.page_details
+				{
+				   display: none;
+				}
+
+                                .page_details_expanded
+                                {
+                                    display: block;
+                                    display/* hide this definition from  IE5/6 */: table-row;
+                                }
+
+
+			</style>
+<script language="JavaScript">
+                           function expand(details_id)
+			   {
+
+			      document.getElementById(details_id).className = "page_details_expanded";
+			   }
+
+			   function collapse(details_id)
+			   {
+
+			      document.getElementById(details_id).className = "page_details";
+			   }
+
+			   function change(details_id)
+			   {
+			      if(document.getElementById(details_id+"_image").src.match("expand"))
+			      {
+			         document.getElementById(details_id+"_image").src = "collapse.png";
+			         expand(details_id);
+			      }
+			      else
+			      {
+			         document.getElementById(details_id+"_image").src = "expand.png";
+			         collapse(details_id);
+			      }
+                           }
+			</script>
+</head>
+<body>
+<h1>Load Test Results</h1>
+<table width="100%">
+<tr>
+<td align="left">Date report: 2024/01/24 15:11</td><td align="right">Designed for use with <a href="http://jmeter.apache.org/">JMeter</a> and <a href="http://ant.apache.org">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>Summary</h2>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details" align="center">
+<tr valign="top">
+<th># Samples</th><th>Failures</th><th>Success Rate</th><th>Average Time</th><th>Min Time</th><th>Max Time</th>
+</tr>
+<tr valign="top" class="">
+<td align="center">60</td><td align="center">0</td><td align="center">100.00%</td><td align="center">1273 ms</td><td align="center">732 ms</td><td align="center">3481 ms</td>
+</tr>
+</table>
+<hr align="center" width="95%" size="1">
+<h2>Pages</h2>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details" align="center">
+<tr valign="top">
+<th>URL</th><th># Samples</th><th>Failures</th><th>Success Rate</th><th>Average Time</th><th>Min Time</th><th>Max Time</th><th></th>
+</tr>
+<tr valign="top" class="">
+<td>HomePage</td><td align="center">20</td><td align="center">0</td><td align="right">100.00%</td><td align="right">1912 ms</td><td align="right">1161 ms</td><td align="right">3481 ms</td><td align="center"><a href="javascript:change('page_details_1')"><img alt="expand/collapse" src="expand.png" id="page_details_1_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_1">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "HomePage"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>Testcase2 1-1</td><td align="center">1</td><td align="right">2821</td><td align="right">80501</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-2</td><td align="center">2</td><td align="right">1316</td><td align="right">80493</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-3</td><td align="center">3</td><td align="right">1161</td><td align="right">80497</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-4</td><td align="center">4</td><td align="right">1347</td><td align="right">80507</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-5</td><td align="center">5</td><td align="right">1729</td><td align="right">80513</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-6</td><td align="center">6</td><td align="right">3481</td><td align="right">80499</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-7</td><td align="center">7</td><td align="right">2390</td><td align="right">80497</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-8</td><td align="center">8</td><td align="right">1345</td><td align="right">80515</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-9</td><td align="center">9</td><td align="right">2369</td><td align="right">80528</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-10</td><td align="center">10</td><td align="right">1703</td><td align="right">80493</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-1</td><td align="center">11</td><td align="right">3128</td><td align="right">80495</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-2</td><td align="center">12</td><td align="right">1634</td><td align="right">80499</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-3</td><td align="center">13</td><td align="right">1636</td><td align="right">80495</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-4</td><td align="center">14</td><td align="right">1681</td><td align="right">80501</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-5</td><td align="center">15</td><td align="right">1547</td><td align="right">80505</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-6</td><td align="center">16</td><td align="right">1592</td><td align="right">80505</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-7</td><td align="center">17</td><td align="right">1544</td><td align="right">80502</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-8</td><td align="center">18</td><td align="right">1932</td><td align="right">80499</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-9</td><td align="center">19</td><td align="right">1974</td><td align="right">80495</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-10</td><td align="center">20</td><td align="right">1919</td><td align="right">80493</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>ContestPage</td><td align="center">20</td><td align="center">0</td><td align="right">100.00%</td><td align="right">794 ms</td><td align="right">732 ms</td><td align="right">896 ms</td><td align="center"><a href="javascript:change('page_details_2')"><img alt="expand/collapse" src="expand.png" id="page_details_2_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_2">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "ContestPage"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>Testcase2 1-3</td><td align="center">1</td><td align="right">732</td><td align="right">184934</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-1</td><td align="center">2</td><td align="right">738</td><td align="right">184931</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-6</td><td align="center">3</td><td align="right">738</td><td align="right">184920</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-2</td><td align="center">4</td><td align="right">743</td><td align="right">184940</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-4</td><td align="center">5</td><td align="right">746</td><td align="right">184937</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-7</td><td align="center">6</td><td align="right">746</td><td align="right">184934</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-5</td><td align="center">7</td><td align="right">749</td><td align="right">184922</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-9</td><td align="center">8</td><td align="right">756</td><td align="right">184936</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-10</td><td align="center">9</td><td align="right">889</td><td align="right">184931</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-8</td><td align="center">10</td><td align="right">896</td><td align="right">184931</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-2</td><td align="center">11</td><td align="right">772</td><td align="right">184844</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-10</td><td align="center">12</td><td align="right">781</td><td align="right">184852</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-4</td><td align="center">13</td><td align="right">791</td><td align="right">184846</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-1</td><td align="center">14</td><td align="right">799</td><td align="right">184842</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-7</td><td align="center">15</td><td align="right">801</td><td align="right">184838</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-3</td><td align="center">16</td><td align="right">805</td><td align="right">184838</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-9</td><td align="center">17</td><td align="right">806</td><td align="right">184838</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-6</td><td align="center">18</td><td align="right">825</td><td align="right">184828</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-8</td><td align="center">19</td><td align="right">871</td><td align="right">184848</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-5</td><td align="center">20</td><td align="right">893</td><td align="right">184840</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>ProblemsPage</td><td align="center">20</td><td align="center">0</td><td align="right">100.00%</td><td align="right">1112 ms</td><td align="right">965 ms</td><td align="right">1770 ms</td><td align="center"><a href="javascript:change('page_details_3')"><img alt="expand/collapse" src="expand.png" id="page_details_3_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_3">
+<td bgcolor="#FF0000" colspan="8">
+<div align="center">
+<b>Details for Page "ProblemsPage"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>Testcase2 1-8</td><td align="center">1</td><td align="right">965</td><td align="right">537239</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-2</td><td align="center">2</td><td align="right">1003</td><td align="right">537255</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-6</td><td align="center">3</td><td align="right">1009</td><td align="right">537239</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-10</td><td align="center">4</td><td align="right">1013</td><td align="right">537237</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-4</td><td align="center">5</td><td align="right">1014</td><td align="right">537235</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-5</td><td align="center">6</td><td align="right">1015</td><td align="right">537234</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-1</td><td align="center">7</td><td align="right">1042</td><td align="right">537239</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-3</td><td align="center">8</td><td align="right">1044</td><td align="right">537245</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-9</td><td align="center">9</td><td align="right">1049</td><td align="right">537235</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-7</td><td align="center">10</td><td align="right">1362</td><td align="right">537239</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-8</td><td align="center">11</td><td align="right">1045</td><td align="right">537510</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-3</td><td align="center">12</td><td align="right">1055</td><td align="right">537515</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-6</td><td align="center">13</td><td align="right">1057</td><td align="right">537522</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-2</td><td align="center">14</td><td align="right">1061</td><td align="right">537522</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-4</td><td align="center">15</td><td align="right">1064</td><td align="right">537514</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-5</td><td align="center">16</td><td align="right">1073</td><td align="right">537509</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-9</td><td align="center">17</td><td align="right">1083</td><td align="right">537512</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-7</td><td align="center">18</td><td align="right">1152</td><td align="right">537509</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-10</td><td align="center">19</td><td align="right">1355</td><td align="right">537526</td><td align="center">true</td>
+</tr>
+<tr>
+<td>Testcase2 1-1</td><td align="center">20</td><td align="right">1770</td><td align="right">537518</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<hr align="center" width="95%" size="1">
+</body>
+</html>
